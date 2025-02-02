@@ -46,7 +46,7 @@
           "id": "spider_climb",
           "amount": 2.4,
           "operation": "add_value",
-          "type": "generic.step_height"
+          "type": "step_height"
         }
       ]
     },

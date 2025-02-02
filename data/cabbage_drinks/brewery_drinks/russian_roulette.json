@@ -32,7 +32,6 @@
         },
         {
           "type": "potion",
-          "locked": false,
           "effect": "minecraft:health_boost",
           "time": "quality * 60",
           "value": "1"
@@ -51,7 +50,7 @@
               "id": "anti_yeet",
               "amount": 1,
               "operation": "add_value",
-              "type": "generic.knockback_resistance"
+              "type": "knockback_resistance"
             }
           ]
       },
@@ -63,7 +62,7 @@
               "id": "health_debuff",
               "amount": -5,
               "operation": "add_value",
-              "type": "generic.max_health"
+              "type": "max_health"
             }
           ]
         },
