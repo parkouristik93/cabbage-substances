@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 4,
   "book_information": {
     "best_cooking_time": 180.0,
     "best_barrel_age": -1200.0
@@ -26,6 +26,7 @@
     }
   ],
   "base_quality_value": "10",
+  "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
   "alcoholic_value": "12 * (0.75 + quality / 40)",
   "name": {
     "translate": "drinktype.brewery.eggnog"
@@ -40,10 +41,5 @@
     }
   ],
   "color": "#ffecb3",
-  "visual": {
-    "components":{
-      "custom_model_data":699304
-    },
-    "item": "minecraft:potion"
-}
+  "visual":{"resource_pack_model": "cabbage_substances:drink"}
 }

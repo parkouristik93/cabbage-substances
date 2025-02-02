@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 4,
   "book_information": {
     "best_cooking_time": 120,
     "best_barrel_age": -1200.0
@@ -26,15 +26,12 @@
     }
   ],
   "base_quality_value": "10",
+  "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
   "alcoholic_value": "10 * (0.75 + quality / 40)",
   "name": {
     "translate": "drinktype.brewery.pina_colada"
   },
   "color": "#f3ff8a",
-  "visual": {
-    "components":{
-      "custom_model_data":699303
-    },
-    "item": "minecraft:potion"
-}
+  "distillation_runs": 1,
+  "visual":{"resource_pack_model": "cabbage_substances:drink"}
 }

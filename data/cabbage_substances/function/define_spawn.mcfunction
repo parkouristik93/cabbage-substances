@@ -1,0 +1,1 @@
+data modify storage cabbage_drinks:spawnpoint input set value {"SpawnX":0,"SpawnY":64,"SpawnZ":0,"SpawnDim":"minecraft:overworld"}

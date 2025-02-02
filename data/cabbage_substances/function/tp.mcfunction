@@ -1,0 +1,2 @@
+$execute in $(SpawnDim) positioned $(SpawnX) $(SpawnY) $(SpawnZ) run tp @s ~ ~ ~ 
+$execute in $(SpawnDim) positioned $(SpawnX) $(SpawnY) $(SpawnZ) run particle minecraft:portal ~ ~1 ~ 0 0 0 1.5 150 force @a

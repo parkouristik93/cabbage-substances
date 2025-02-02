@@ -1,5 +1,5 @@
 {
-    "version": 3,
+    "version": 4,
     "book_information": {
       "best_cooking_time": 900.0,
       "best_barrel_age": -1200.0
@@ -19,8 +19,9 @@
       }
     ],
     "base_quality_value": "10",
+    "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
     "alcoholic_value": "0",
-    "entries": [
+    "effects": [
         {
             "type": "set_alcohol_level",
             "value": "current-(current*0.33*quality/10)"
@@ -37,6 +38,7 @@
       },
       "color": "#ff0000",
       "visual": {
-        "item": "minecraft:coal"
-      }    
+        "animation":"eat",
+        "model":"coal"
+        } 
 }

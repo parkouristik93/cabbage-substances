@@ -1,5 +1,5 @@
 {
-    "version": 3,
+    "version": 4,
     "book_information": {
       "best_cooking_time": 600.0,
       "best_barrel_age": -1200.0
@@ -26,24 +26,26 @@
       }
     ],
     "base_quality_value": "10",
+    "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
+    "required_container": "bowl",
     "alcoholic_value": "0",
     "effects": [
         {
         "type": "potion",
         "effect": "minecraft:saturation",
-        "time": "(quality/5+3)*60",
-        "value": "0"
+        "time": "(quality - 5) * 6",
+        "value": "quality / 5 - 1.2"
         }
     ],
     "name": {
       "translate": "drinktype.brewery.borsch"
     },
-    "color": "#FFFFFF",
-    "visual": {
-        "item": "minecraft:beetroot_soup",
-        "components":{
-          "custom_model_data":699301,
-          "consumable":{sound:"entity.generic.eat"}
-        }
+    "color": "#ac0202",
+    "visual": {  
+       "sound_event":"minecraft:entity.generic.eat",
+       "animation":"eat",
+       "model":"suspicious_stew",
+       "particles": true,
+       "resource_pack_model": "cabbage_substances:drink"
     }
   }

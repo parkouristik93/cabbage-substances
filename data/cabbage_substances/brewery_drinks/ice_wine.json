@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 4,
   "book_information": {
     "best_cooking_time": 300.0,
     "best_barrel_age": 36000.0,
@@ -30,8 +30,9 @@
     }
   ],
   "base_quality_value": "smooth_value_days(30.0, 30.0, 240.0, age) * 10",
+  "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
   "alcoholic_value": "8 * (0.75 + quality / 40)",
-  "entries": [
+  "effects": [
     {
       "type": "potion",
       "locked": false,
@@ -48,10 +49,5 @@
     "translate": "drinktype.brewery.ice_wine"
   },
   "color": "#9efcff",
-  "visual": {
-    "components":{
-      "custom_model_data":699305
-    },
-    "item": "minecraft:potion"
-}
+  "visual":{"resource_pack_model": "cabbage_substances:drink"}
 }

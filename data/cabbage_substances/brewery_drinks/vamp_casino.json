@@ -1,5 +1,5 @@
 {
-    "version": 2,
+    "version": 4,
     "book_information": {
       "best_cooking_time": 360.0,
       "best_barrel_age": -1200.0
@@ -20,8 +20,9 @@
       }
     ],
     "base_quality_value": "10",
+    "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
     "alcoholic_value": "0",
-    "entries": [
+    "effects": [
       {
       "type": "random",
       "entries":[
@@ -43,17 +44,12 @@
           "value": "1"
         },
         {
-          "type": "attributes",
+          "type": "potion",
+          "locked": false,
+          "effect": "minecraft:haste",
           "time": "quality * 60",
-          "entries": [
-            {
-              "id": "anti_yeet",
-              "amount": 1,
-              "operation": "add_value",
-              "type": "knockback_resistance"
-            }
-          ]
-      },
+          "value": "1"
+        },
         {
           "type": "attributes",
           "time": "quality * 60",
@@ -79,8 +75,11 @@
     "name": {
       "translate": "drinktype.brewery.vamp_casino"
     },
-    "color": "#FFFFFF",
+    "color": "#FF0000",
     "visual": {
-        "item": "minecraft:beef"
-    }
+      "model":"minecraft:beef",
+      "sound_event":"minecraft:entity.generic.eat",
+      "particles": true,
+      "animation":"eat"
+    }  
   }

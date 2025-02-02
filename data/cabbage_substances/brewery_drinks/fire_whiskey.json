@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 4,
   "book_information": {
     "best_cooking_time": 600.0,
     "best_barrel_age": 21600.0,
@@ -13,7 +13,13 @@
       "items": [
         "minecraft:wheat"
       ],
-      "count": 10
+      "count": 8
+    },
+    {
+      "items": [
+        "minecraft:torchflower"
+      ],
+      "count": 2
     }
   ],
   "barrel_definitions": [
@@ -25,22 +31,36 @@
   ],
   "base_quality_value": "smooth_value_days(18.0, 2.0, 50.0, age) * 10",
   "alcoholic_value": "26 * (0.75 + quality / 40)",
-"entries": [
+"effects": [
     {
       "type": "potion",
       "locked": false,
       "effect": "minecraft:absorption",
       "time": "(quality - 4) * 12",
       "value": "quality / 2 - 2"
+    },
+    {
+      "type": "potion",
+      "locked": false,
+      "effect": "minecraft:fire_resistance",
+      "time": "(quality - 4) * 60",
+      "value": "0"
+    },
+    {
+      "type": "potion",
+      "locked": false,
+      "effect": "minecraft:fire_resistance",
+      "time": "quality * 20",
+      "value": "1"
+    },
+    {
+      "type": "set_on_fire",
+      "time": "(quality - 2) * 10"
     }
   ],
   "name": {
-    "translate": "drinktype.brewery.whiskey"
+    "translate": "drinktype.brewery.fire_whiskey"
   },
-  "color": "gold",
-  "visual": {
-    "components":{
-      "custom_model_data":699301
-    }
-}
+  "color": "#ff6a00",
+  "visual":{"resource_pack_model": "cabbage_substances:drink"}
 }

@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 4,
   "book_information": {
     "best_cooking_time": 720.0,
     "best_barrel_age": -1200.0
@@ -20,11 +20,16 @@
     }
   ],
   "base_quality_value": "10",
+  "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
   "alcoholic_value": "0",
-  "entries": [
+  "effects": [
     {
-      "type": "execute_command",
-      "command": "/effect clear @s"
+        "type": "consume_effects",
+        "entries": [
+          {
+          "type":"minecraft:clear_all_effects"
+          }
+      ]
     },
     {
       "type": "potion",
@@ -40,9 +45,7 @@
   },
   "color": "#B33C00",
   "visual": {
-    "components":{
-      "consumable":{sound:"item.honey_bottle.drink"}
-    },
-    "item": "minecraft:milk_bucket"
+    "sound_event":"item.honey_bottle.drink",
+    "model":"minecraft:milk_bucket"
 }
 }

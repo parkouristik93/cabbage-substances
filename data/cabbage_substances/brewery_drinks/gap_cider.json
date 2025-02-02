@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 4,
   "book_information": {
     "best_cooking_time": 300.0,
     "best_barrel_age": 18000.0,
@@ -30,8 +30,9 @@
     }
   ],
   "base_quality_value": "smooth_value_days(15.0, 15.0, 120.0, age) * 10",
+  "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
   "alcoholic_value": "9 * (0.75 + quality / 40)",
-  "entries": [
+  "effects": [
     {
       "type": "potion",
       "locked": false,
@@ -57,10 +58,10 @@
   },
   "color": "#B49804",
   "visual": {
+    "resource_pack_model": "cabbage_substances:drink",
     "components":{
-      "custom_model_data":699305,
-      "enchantment_glint_override":true
-    },
-    "item": "minecraft:potion"
+      "enchantment_glint_override":true,
+      "rarity":"rare"
+    }
 }
 }

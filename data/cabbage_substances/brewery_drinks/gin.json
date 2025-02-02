@@ -1,5 +1,5 @@
 {
-    "version": 2,
+    "version": 4,
     "book_information": {
       "best_cooking_time": 180.0,
       "best_barrel_age": 7200.0,
@@ -36,16 +36,12 @@
       }
     ],
     "base_quality_value": "smooth_value_days(6.0, 1.5, 3.5, age) * 10",
+    "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
     "alcoholic_value": "20 * (0.75 + quality / 40)",
     "distillation_runs": 2,
     "name": {
       "translate": "drinktype.brewery.gin"
     },
     "color": "#99ddff",
-    "visual": {
-      "components":{
-        "custom_model_data":699301
-      },
-      "item": "minecraft:potion"
-  }
+    "visual":{"resource_pack_model": "cabbage_substances:drink"}
   }

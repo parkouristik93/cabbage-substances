@@ -1,5 +1,5 @@
 {
-    "version": 2,
+    "version": 4,
     "book_information": {
       "best_cooking_time": 420.0,
       "best_barrel_age": -1200.0
@@ -25,8 +25,9 @@
       }
     ],
     "base_quality_value": "10",
+    "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
     "alcoholic_value": "-6",
-    "entries": [
+    "effects": [
       {
         "type": "freeze",
         "time": "30-(1.5*quality)"
@@ -36,11 +37,6 @@
       "translate": "drinktype.brewery.snow_drink"
     },
     "color": "#d9e7ff",
-    "visual": {
-      "components":{
-        "custom_model_data":699304
-      },
-      "item": "minecraft:potion"
-  }
+    "visual":{"resource_pack_model": "cabbage_substances:drink"}
   }
   

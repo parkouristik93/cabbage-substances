@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 4,
   "unfinished_brew_effects": [
     {
       "type": "potion",
@@ -48,8 +48,9 @@
   ],
   "distillation_runs": 4,
   "base_quality_value": "10",
+  "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
   "alcoholic_value": "70",
-  "entries": [
+  "effects": [
     {
       "type": "delayed",
       "delay": "30 * quality",
@@ -73,10 +74,5 @@
     "translate": "drinktype.brewery.moonshine"
   },
   "color": "#cccccc",
-  "visual": {
-    "components":{
-      "custom_model_data":699301
-    },
-    "item": "minecraft:potion"
-}
+  "visual":{"resource_pack_model": "cabbage_substances:drink"}
 }

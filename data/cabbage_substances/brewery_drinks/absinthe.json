@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "name": {"translate":"drinktype.brewery.absinthe"},
   "book_information": {
     "best_cooking_time": 300.0,
@@ -25,6 +25,7 @@
       "value": "4"
     }],
   "cooking_quality_multiplier": "cos(clamp((age / 60 - 5.0) * 0.25, -2, 2))",
+  "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
   "alcoholic_value": "40 * (0.75 + quality / 40)",
   "ingredients": [
     {
@@ -36,7 +37,7 @@
   ],
   "distillation_runs": 3,
   "base_quality_value": "10",
-  "entries":[
+  "effects":[
     {
       "type": "potion",
       "locked": false,
@@ -52,11 +53,6 @@
     }
   ],
   "color": "#76E585",
-  "visual": {
-    "components":{
-      "custom_model_data":699301
-    },
-    "item": "minecraft:potion"
-}
+  "visual":{"resource_pack_model": "cabbage_substances:drink"}
 }
 

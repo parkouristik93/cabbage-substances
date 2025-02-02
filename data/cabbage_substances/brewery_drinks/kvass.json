@@ -1,5 +1,5 @@
 {
-    "version": 2,
+    "version": 4,
     "book_information": {
       "best_cooking_time": 600.0,
       "best_barrel_age": 2400.0,
@@ -30,14 +30,11 @@
       }
     ],
     "base_quality_value": "smooth_value_days(2.0, 1.0, 3.0, age) * 10",
+    "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
     "alcoholic_value": "1",
     "name": {
       "translate": "drinktype.brewery.kvass"
     },
     "color": "#8a2e00",
-    "visual": {
-      "components":{
-        "custom_model_data":699302
-      }
-  }
+    "visual":{"resource_pack_model": "cabbage_substances:drink"}
 }

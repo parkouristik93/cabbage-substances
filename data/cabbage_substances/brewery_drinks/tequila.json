@@ -1,5 +1,5 @@
 {
-    "version": 2,
+    "version": 4,
     "unfinished_brew_effects": [
       {
         "type": "damage",
@@ -24,6 +24,7 @@
       }
     ],
     "base_quality_value": "smooth_value_days(3.0, 1.0, 1.0, age)*10",
+    "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
     "alcoholic_value": "20 * (0.75 + quality / 40)",
     "distillation_runs": 2,
     "barrel_definitions": [
@@ -33,7 +34,7 @@
         "reveal_time": 300
       }
     ],
-    "entries": [
+    "effects": [
       {
         "type": "potion",
         "locked": false,
@@ -52,9 +53,6 @@
     },
     "color": "#f5f07e",
     "visual": {
-      "components":{
-        "custom_model_data":699301
-      },
-      "item": "minecraft:potion"
-  }
+      "resource_pack_model": "cabbage_substances:drink"
+    }
   }

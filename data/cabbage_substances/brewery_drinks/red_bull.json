@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "book_information": {
     "best_cooking_time": 720.0,
     "best_barrel_age": -1200.0
@@ -26,6 +26,7 @@
       }
     ],
     "distillation_runs": 5,
+    "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
     "base_quality_value": "10",
     "alcoholic_value": "30",
     "effects": [
@@ -89,5 +90,6 @@
     "name": {
       "translate": "drinktype.brewery.red_bull"
     },
-    "color": "#FFFF00"
+    "color": "#FFFF00",
+    "visual":{"resource_pack_model": "cabbage_substances:drink"}
   }

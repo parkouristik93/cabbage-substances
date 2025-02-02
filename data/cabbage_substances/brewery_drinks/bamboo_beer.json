@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "book_information": {
     "best_cooking_time": 480.0,
     "best_barrel_age": 4200.0,
@@ -24,6 +24,7 @@
     }
   ],
   "base_quality_value": "smooth_value_days(3.5, 2.0, 5.0, age) * 10",
+  "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
   "alcoholic_value": "6 * (0.75 + quality / 40)",
   "effects": [
     {
@@ -45,9 +46,5 @@
     "translate": "drinktype.brewery.bamboo_beer"
   },
   "color": "#61c82d",
-  "visual": {
-    "components":{
-      "custom_model_data":699302
-    }
-}
+  "visual":{"resource_pack_model": "cabbage_substances:drink"}
 }

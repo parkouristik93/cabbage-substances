@@ -1,0 +1,31 @@
+{
+  "version": 4,
+  "name": {
+    "translate":"drinktype.brewery.recall",
+    "color":"aqua"
+  },
+  "unfinished_brew_effects": [
+    {
+      "type": "set_alcohol_level",
+     "value": "current+130"
+    }
+  ],
+  "cooking_quality_multiplier": "1",
+  "alcoholic_value": "0",
+  "ingredients": [],
+  "distillation_runs": 20,
+  "base_quality_value": "10",
+  "effects":[
+    {
+      "type": "execute_command",
+      "command": "/function cabbage_substances:recall",
+      "apply_check": "quality - 6"
+  }
+  ],
+  "color": "#8a00e0",
+  "visual": {
+    "components":{
+      "enchantment_glint_override":true
+    }
+}
+}

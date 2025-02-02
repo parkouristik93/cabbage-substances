@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 4,
   "book_information": {
     "best_cooking_time": 210.0,
     "best_barrel_age": -1200.0
@@ -32,11 +32,12 @@
     }
   ],
   "base_quality_value": "10",
+  "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
   "alcoholic_value": "22 * (0.75 + quality / 40)",
   "name": {
     "translate": "drinktype.brewery.mezo_margarita"
   },
-  "entries":[
+  "effects":[
     {
       "type": "potion",
       "locked": false,
@@ -54,9 +55,6 @@
         ],
   "color": "#f3ff8a",
   "visual": {
-    "components":{
-      "custom_model_data":699303
-    },
-    "item": "minecraft:pitcher_plant"
-}
+    "model":"minecraft:pitcher_plant"
+  }    
 }

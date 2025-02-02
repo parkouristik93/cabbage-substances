@@ -1,5 +1,5 @@
 {
-    "version": 3,
+    "version": 4,
     "unfinished_brew_effects": [
       {
         "type": "potion",
@@ -89,7 +89,7 @@
            "delay": "1200",
             "entries": [
               {
-                "type": "set_alcohol_level",
+                "type": "add_alcohol_level",
                "value": "90*(1+(10-quality)*0.05)"
               }]
             }
@@ -102,8 +102,9 @@
     "color": "#7c047c",
     "visual": {
       "components":{
-        "custom_model_data":699303,
-        "enchantment_glint_override":true
-      }
+        "enchantment_glint_override":true,
+        "rarity":"rare"
+      },
+      "resource_pack_model": "cabbage_substances:drink"
   }
 }

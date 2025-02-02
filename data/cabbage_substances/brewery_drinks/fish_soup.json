@@ -1,5 +1,5 @@
 {
-    "version": 2,
+    "version": 4,
     "book_information": {
       "best_cooking_time": 420.0,
       "best_barrel_age": -1200.0
@@ -26,24 +26,26 @@
       }
     ],
     "base_quality_value": "10",
+    "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
+    "required_container": "bowl",
     "alcoholic_value": "0",
-    "entries": [
+    "effects": [
         {
         "type": "potion",
         "effect": "minecraft:saturation",
-        "time": "(quality/5+2)*60",
-        "value": "0"
+        "time": "(quality - 5) * 6",
+        "value": "quality / 5 - 1.2"
         }
     ],
     "name": {
       "translate": "drinktype.brewery.fish_soup"
     },
-    "color": "#FFFFFF",
+    "color": "#296b00",
     "visual": {
-        "item": "minecraft:mushroom_stew",
-        "components":{
-          "custom_model_data":699302,
-          "consumable":{sound:"entity.generic.eat"}
-        }
+      "sound_event":"minecraft:entity.generic.eat",
+      "animation":"eat",
+       "particles": true,
+       "model":"mushroom_stew",
+      "resource_pack_model": "cabbage_substances:drink"
     }
   }
