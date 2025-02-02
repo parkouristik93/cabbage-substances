@@ -8,21 +8,21 @@
     "ingredients": [
       {
         "items": [
-          "minecraft:chicken"
+          "minecraft:cod","minecraft:salmon"
         ],
         "count": 2
       },
       {
         "items": [
-          "minecraft:bread"
+          "minecraft:potato"
         ],
-        "count": 2
+        "count": 3
       },
       {
         "items": [
           "minecraft:carrot"
         ],
-        "count": 2
+        "count": 1
       }
     ],
     "base_quality_value": "10",
@@ -31,15 +31,19 @@
         {
         "type": "potion",
         "effect": "minecraft:saturation",
-        "time": "0.05*8(0.75 + quality / 40)",
+        "time": "(quality/5+2)*60",
         "value": "0"
         }
     ],
     "name": {
-      "translate": "drinktype.brewery.chicken_soup"
+      "translate": "drinktype.brewery.fish_soup"
     },
     "color": "#FFFFFF",
     "visual": {
-        "item": "minecraft:mushroom_stew"
+        "item": "minecraft:mushroom_stew",
+        "components":{
+          "custom_model_data":699302,
+          "consumable":{sound:"entity.generic.eat"}
+        }
     }
   }

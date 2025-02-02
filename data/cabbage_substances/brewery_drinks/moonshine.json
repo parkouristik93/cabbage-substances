@@ -1,0 +1,82 @@
+{
+  "version": 3,
+  "unfinished_brew_effects": [
+    {
+      "type": "potion",
+      "effect": "minecraft:poison",
+      "time": "60",
+      "value": "4"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:darkness",
+      "time": "60",
+      "value": "4"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:blindness",
+      "time": "60",
+      "value": "4"
+    }
+  ],
+  "book_information": {
+    "best_cooking_time": 780.0,
+    "best_barrel_age": -1200.0
+  },
+  "cooking_quality_multiplier": "smooth_value_minutes(13.0, 0.7, 13.0, age)",
+  "ingredients": [
+    {
+      "items": [
+        "minecraft:potato"
+      ],
+      "count": 20
+    },
+    {
+      "items": [
+        "minecraft:sugar"
+      ],
+      "count": 9
+    },
+    {
+      "items": [
+        "minecraft:brown_mushroom"
+      ],
+      "count": 5
+    }
+
+  ],
+  "distillation_runs": 4,
+  "base_quality_value": "10",
+  "alcoholic_value": "70",
+  "effects": [
+    {
+      "type": "delayed",
+      "delay": "30 * quality",
+      "entries": [
+        {
+          "type": "potion",
+          "effect": "minecraft:blindness",
+          "time": "30",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:wither",
+      "time": "20",
+      "value": "floor(5/(0.5*quality+2)+1)"
+    }
+  ],
+  "name": {
+    "translate": "drinktype.brewery.moonshine"
+  },
+  "color": "#cccccc",
+  "visual": {
+    "components":{
+      "custom_model_data":699301
+    },
+    "item": "minecraft:potion"
+}
+}

@@ -41,5 +41,11 @@
     "name": {
       "translate": "drinktype.brewery.gin"
     },
-    "color": "#99ddff"
+    "color": "#99ddff",
+    "visual": {
+      "components":{
+        "custom_model_data":699301
+      },
+      "item": "minecraft:potion"
+  }
   }

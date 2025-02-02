@@ -66,5 +66,11 @@
   "name": {
     "translate": "drinktype.brewery.spider_cider"
   },
-  "color": "#be70a0"
+  "color": "#be70a0",
+  "visual": {
+    "components":{
+      "custom_model_data":699305
+    },
+    "item": "minecraft:potion"
+}
 }

@@ -34,5 +34,10 @@
     "name": {
       "translate": "drinktype.brewery.kvass"
     },
-    "color": "#612000"
+    "color": "#8a2e00",
+    "visual": {
+      "components":{
+        "custom_model_data":699302
+      }
   }
+}

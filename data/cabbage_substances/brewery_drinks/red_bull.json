@@ -1,0 +1,93 @@
+{
+  "version": 3,
+  "book_information": {
+    "best_cooking_time": 720.0,
+    "best_barrel_age": -1200.0
+  },
+    "cooking_quality_multiplier": "cos(clamp((age / 60 - 12.0) * 0.3333333, -2, 2))",
+    "ingredients": [
+      {
+        "items": [
+          "minecraft:phantom_membrane"
+        ],
+        "count": 2
+      },
+      {
+        "items":[
+          "minecraft:sugar"
+        ],
+        "count":7
+      },
+      {
+        "items": [
+          "minecraft:cocoa_beans"
+        ],
+        "count": 7
+      }
+    ],
+    "distillation_runs": 5,
+    "base_quality_value": "10",
+    "alcoholic_value": "30",
+    "effects": [
+      {
+        "type": "velocity", 
+        "x": "0",
+        "y": "1+random()*0.414",
+        "z": "0"
+      },
+      {
+      "type": "execute_command",
+      "command": "/execute if entity @s[nbt=!{Inventory:[{Slot:103b}]}] run item replace entity @s armor.head with minecraft:feather[minecraft:equippable={\"slot\": \"head\"},item_name='{\"translate\":\"redbull.elytra.name\"}',lore=['{\"translate\":\"redbull.elytra.lore\"}'],enchantments={levels:{\"minecraft:vanishing_curse\":1}}]",
+      "apply_check": "quality - 7"
+      },
+      {
+        "type": "execute_command",
+        "command": "/item modify entity @s armor.head cabbage_substances:glider",
+        "apply_check": "quality - 7"
+        },
+      {
+        "type": "execute_command",
+        "command": "/particle minecraft:poof ~ ~ ~ 0.25 0 0.25 0.1 15"
+      },
+    {
+      "type": "random",
+    "entries":[
+      {
+        "type":"potion",
+        "locked": false,
+        "effect": "minecraft:slow_falling",
+        "time": "7",
+        "value": "0"
+      }],
+      "apply_check": "6 - quality"},
+      {
+      "type": "delayed",
+      "delay": "quality*1.5+0.1",
+      "entries": [
+        {
+          "type": "execute_command",
+          "command": "/execute if entity @s[nbt={Inventory:[{id:\"minecraft:feather\",Slot:103b,components:{\"minecraft:glider\":{}}}]}] run item replace entity @s armor.head with air"
+        },
+        {
+          "type": "execute_command",
+          "command": "item modify entity @p armor.head cabbage_substances:unglider"
+        },
+        {
+          "type": "random",
+        "entries":[
+          {
+            "type":"potion",
+            "locked": false,
+            "effect": "minecraft:slow_falling",
+            "time": "7",
+            "value": "0"
+          }],
+          "apply_check": "quality - 7"}
+      ]
+    }
+  ],
+    "name": {
+      "translate": "drinktype.brewery.red_bull"
+    },
+    "color": "#FFFF00"
+  }

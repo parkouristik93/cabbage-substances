@@ -8,13 +8,13 @@
     "ingredients": [
       {
         "items": [
-          "minecraft:pufferfish"
+          "minecraft:beetroot"
         ],
         "count": 3
       },
       {
         "items": [
-          "minecraft:wheat"
+          "minecraft:beef","minecraft:porkchop","mutton","chicken","rabbit"
         ],
         "count": 2
       }
@@ -77,10 +77,10 @@
       }
     ],
     "name": {
-      "translate": "drinktype.brewery.russian_roulette"
+      "translate": "drinktype.brewery.vamp_casino"
     },
     "color": "#FFFFFF",
     "visual": {
-        "item": "minecraft:pufferfish"
+        "item": "minecraft:beef"
     }
   }

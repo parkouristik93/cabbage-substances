@@ -23,7 +23,7 @@
         "count": 8
       }
     ],
-    "base_quality_value": "smooth_value_days(3.0, 1.0, 1.0, age)",
+    "base_quality_value": "smooth_value_days(3.0, 1.0, 1.0, age)*10",
     "alcoholic_value": "20 * (0.75 + quality / 40)",
     "distillation_runs": 2,
     "barrel_definitions": [
@@ -50,5 +50,11 @@
     "name": {
       "translate": "drinktype.brewery.tequila"
     },
-    "color": "#f5f07e"
+    "color": "#f5f07e",
+    "visual": {
+      "components":{
+        "custom_model_data":699301
+      },
+      "item": "minecraft:potion"
+  }
   }
