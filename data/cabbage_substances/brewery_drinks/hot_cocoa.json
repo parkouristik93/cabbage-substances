@@ -40,10 +40,5 @@
   "name": {
     "translate": "drinktype.brewery.hot_cocoa"
   },
-  "color": "#B33C00",
-  "visual": {
-    "components":{
-      "custom_model_data":699304
-    }
-  }
+  "color": "#B33C00"
 }

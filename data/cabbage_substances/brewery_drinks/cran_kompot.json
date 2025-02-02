@@ -34,11 +34,5 @@
   "name": {
     "translate": "drinktype.brewery.cran_kompot"
   },
-  "color": "#A52A2A",
-  "visual": {
-    "components":{
-      "custom_model_data":699306
-    },
-    "item": "minecraft:potion"
-}
+  "color": "#A52A2A"
 }

@@ -35,12 +35,6 @@
     "name": {
       "translate": "drinktype.brewery.snow_drink"
     },
-    "color": "#d9e7ff",
-    "visual": {
-      "components":{
-        "custom_model_data":699304
-      },
-      "item": "minecraft:potion"
-  }
+    "color": "#d9e7ff"
   }
   

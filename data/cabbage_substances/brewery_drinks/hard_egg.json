@@ -27,7 +27,10 @@
         "translate": "drinktype.brewery.egg"
       },
       "color": "#ff0000",
-      "visual": {
-        "item": "minecraft:turtle_egg"
-      }    
+        "visual": {
+          "components":{
+            "consumable":{sound:"entity.generic.eat"},
+            "minecraft:item_model":"minecraft:egg"
+          }
+        }    
 }

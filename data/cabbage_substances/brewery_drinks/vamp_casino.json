@@ -81,6 +81,8 @@
     },
     "color": "#FFFFFF",
     "visual": {
-        "item": "minecraft:beef"
-    }
+      "components":{
+        "minecraft:item_model":"minecraft:beef"
+      }
+    }  
   }

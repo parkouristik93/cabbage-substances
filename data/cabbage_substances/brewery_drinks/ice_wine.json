@@ -47,11 +47,5 @@
   "name": {
     "translate": "drinktype.brewery.ice_wine"
   },
-  "color": "#9efcff",
-  "visual": {
-    "components":{
-      "custom_model_data":699305
-    },
-    "item": "minecraft:potion"
-}
+  "color": "#9efcff"
 }

@@ -39,11 +39,10 @@
       "translate": "drinktype.brewery.borsch"
     },
     "color": "#FFFFFF",
-    "visual": {
-        "item": "minecraft:beetroot_soup",
+    "visual": {  
         "components":{
-          "custom_model_data":699301,
-          "consumable":{sound:"entity.generic.eat"}
+          "consumable":{sound:"entity.generic.eat"},
+          "minecraft:item_model":"minecraft:beetroot_soup"
         }
     }
   }

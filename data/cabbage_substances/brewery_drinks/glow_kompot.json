@@ -42,11 +42,5 @@
   "name": {
     "translate": "drinktype.brewery.glow_kompot"
   },
-  "color": "#ecff70",
-  "visual": {
-    "components":{
-      "custom_model_data":699306
-    },
-    "item": "minecraft:potion"
-}
+  "color": "#ecff70"
 }

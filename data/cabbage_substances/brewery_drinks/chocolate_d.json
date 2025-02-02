@@ -50,8 +50,7 @@
   "color": "#000000",
   "visual": {
     "components":{
-      "custom_model_data":699306
-    },
-    "item": "minecraft:netherite_ingot"
-}
+      "minecraft:item_model":"minecraft:netherite_ingot"
+    }
+  }  
 }

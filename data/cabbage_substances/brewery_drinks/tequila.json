@@ -50,11 +50,5 @@
     "name": {
       "translate": "drinktype.brewery.tequila"
     },
-    "color": "#f5f07e",
-    "visual": {
-      "components":{
-        "custom_model_data":699301
-      },
-      "item": "minecraft:potion"
-  }
+    "color": "#f5f07e"
   }

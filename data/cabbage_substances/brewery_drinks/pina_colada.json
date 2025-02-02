@@ -30,11 +30,5 @@
   "name": {
     "translate": "drinktype.brewery.pina_colada"
   },
-  "color": "#f3ff8a",
-  "visual": {
-    "components":{
-      "custom_model_data":699303
-    },
-    "item": "minecraft:potion"
-}
+  "color": "#f3ff8a"
 }

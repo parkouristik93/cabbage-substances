@@ -55,8 +55,7 @@
   "color": "#f3ff8a",
   "visual": {
     "components":{
-      "custom_model_data":699303
-    },
-    "item": "minecraft:pitcher_plant"
-}
+      "minecraft:item_model":"minecraft:pitcher_plant"
+    }
+  }    
 }

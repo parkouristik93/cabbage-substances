@@ -34,11 +34,5 @@
   "name": {
     "translate": "drinktype.brewery.apple_kompot"
   },
-  "color": "#ffe8a3",
-  "visual": {
-    "components":{
-      "custom_model_data":699306
-    },
-    "item": "minecraft:potion"
-}
+  "color": "#ffe8a3"
 }

@@ -26,6 +26,8 @@
       },
       "color": "#ff0000",
       "visual": {
-        "item": "minecraft:lava_bucket"
-      }    
+        "components":{
+          "minecraft:item_model":"minecraft:lava_bucket"
+        }
+      }  
 }

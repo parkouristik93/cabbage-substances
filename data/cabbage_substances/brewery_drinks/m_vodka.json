@@ -79,11 +79,5 @@
     "name": {
       "translate": "drinktype.brewery.mushroom_vodka"
     },
-    "color": "#ffd2b3",
-    "visual": {
-      "components":{
-        "custom_model_data":699301
-      },
-      "item": "minecraft:potion"
-  }
+    "color": "#ffd2b3"
   }

@@ -44,10 +44,5 @@
   "name": {
     "translate": "drinktype.brewery.bamboo_beer"
   },
-  "color": "#61c82d",
-  "visual": {
-    "components":{
-      "custom_model_data":699302
-    }
-}
+  "color": "#61c82d"
 }

@@ -72,11 +72,5 @@
   "name": {
     "translate": "drinktype.brewery.moonshine"
   },
-  "color": "#cccccc",
-  "visual": {
-    "components":{
-      "custom_model_data":699301
-    },
-    "item": "minecraft:potion"
-}
+  "color": "#cccccc"
 }

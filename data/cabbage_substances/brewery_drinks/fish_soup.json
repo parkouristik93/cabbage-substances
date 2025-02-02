@@ -40,10 +40,9 @@
     },
     "color": "#FFFFFF",
     "visual": {
-        "item": "minecraft:mushroom_stew",
         "components":{
-          "custom_model_data":699302,
-          "consumable":{sound:"entity.generic.eat"}
+          "consumable":{sound:"entity.generic.eat"},
+          "minecraft:item_model":"minecraft:mushroom_stew"
         }
     }
   }

@@ -37,6 +37,8 @@
       },
       "color": "#ff0000",
       "visual": {
-        "item": "minecraft:coal"
+        "components":{
+          "minecraft:item_model":"minecraft:coal"
+        }
       }    
 }

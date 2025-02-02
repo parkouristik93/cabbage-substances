@@ -43,17 +43,5 @@
   "name": {
     "translate": "drinktype.brewery.white_wine"
   },
-  "color": "#f7ffa3",
-  "visual": {
-    "components":{
-      "custom_model_data":699305
-    },
-    "item": "minecraft:potion",
-    "visual": {
-      "components":{
-        "custom_model_data":699305
-      },
-      "item": "minecraft:potion"
-  }
-}
+  "color": "#f7ffa3"
 }

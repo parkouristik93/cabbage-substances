@@ -39,11 +39,5 @@
       "value": "0"
     }
   ],
-  "color": "#ffecb3",
-  "visual": {
-    "components":{
-      "custom_model_data":699304
-    },
-    "item": "minecraft:potion"
-}
+  "color": "#ffecb3"
 }

@@ -24,11 +24,5 @@
   "name": {
     "translate": "drinktype.brewery.margarita"
   },
-  "color": "#e1dbb2",
-  "visual": {
-    "components":{
-      "custom_model_data":699303
-    },
-    "item": "minecraft:potion"
-}
+  "color": "#e1dbb2"
 }

@@ -50,11 +50,5 @@
   "name": {
     "translate": "drinktype.brewery.coffee"
   },
-  "color": "#321900",
-  "visual": {
-    "components":{
-      "custom_model_data":699304
-    },
-    "item": "minecraft:potion"
-}
+  "color": "#321900"
 }

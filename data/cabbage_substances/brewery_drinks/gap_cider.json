@@ -58,9 +58,7 @@
   "color": "#B49804",
   "visual": {
     "components":{
-      "custom_model_data":699305,
       "enchantment_glint_override":true
-    },
-    "item": "minecraft:potion"
+    }
 }
 }

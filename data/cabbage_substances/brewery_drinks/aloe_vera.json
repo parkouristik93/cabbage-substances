@@ -34,6 +34,8 @@
       },
       "color": "#ff0000",
       "visual": {
-        "item": "minecraft:large_fern"
-      }    
+        "components":{
+          "minecraft:item_model":"minecraft:large_fern"
+        }
+      }   
 }

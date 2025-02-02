@@ -51,12 +51,6 @@
       "value": "ceil(quality/5)"
     }
   ],
-  "color": "#76E585",
-  "visual": {
-    "components":{
-      "custom_model_data":699301
-    },
-    "item": "minecraft:potion"
-}
+  "color": "#76E585"
 }
 
