@@ -48,13 +48,7 @@
           "time": "quality * 60",
           "entries": [
             {
-              "uuid": [
-                1729037996,
-                -402507667,
-                -1600814949,
-                -508991647
-              ],
-              "name": "Knockback resist",
+              "id": "anti_yeet",
               "amount": 1,
               "operation": "add_value",
               "type": "generic.knockback_resistance"
@@ -66,13 +60,7 @@
           "time": "quality * 60",
           "entries": [
             {
-              "uuid": [
-                622270671,
-                -1383643182,
-                -1513247934,
-                790355092
-              ],
-              "name": "Negative max health",
+              "id": "health_debuff",
               "amount": -5,
               "operation": "add_value",
               "type": "generic.max_health"

@@ -43,13 +43,7 @@
       "time": "quality * 30",
       "entries": [
         {
-          "uuid": [
-            622270671,
-            -1383643182,
-            -1513247934,
-            790355092
-          ],
-          "name": "Паучий лаз",
+          "id": "spider_climb",
           "amount": 2.4,
           "operation": "add_value",
           "type": "generic.step_height"
