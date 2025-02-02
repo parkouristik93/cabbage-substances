@@ -1,0 +1,40 @@
+{
+    "version": 2,
+    "book_information": {
+      "best_cooking_time": 420.0,
+      "best_barrel_age": -1200.0
+    },
+    "cooking_quality_multiplier": "cos(clamp((age/60 - 20.0)*0.5, -2, 2))",
+    "ingredients": [
+      {
+        "items": [
+          "minecraft:snowball"
+        ],
+        "count": 3
+      },
+      {
+        "items": [
+          "minecraft:coal"
+        ], "count":2
+      },
+      {
+        "items": [
+          "minecraft:carrot"
+        ],
+        "count": 1
+      }
+    ],
+    "base_quality_value": "10",
+    "alcoholic_value": "-6",
+    "entries": [
+      {
+        "type": "freeze",
+        "time": "30-(1.5*quality)"
+      }
+    ],
+    "name": {
+      "translate": "drinktype.brewery.snow_drink"
+    },
+    "color": "#d9e7ff"
+  }
+  

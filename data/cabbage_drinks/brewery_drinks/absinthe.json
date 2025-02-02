@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "name": {"translate":"drinktype.brewery.absinthe"},
+  "book_information": {
+    "best_cooking_time": 300.0,
+    "best_barrel_age": -1200
+  },
+  "unfinished_brew_effects": [
+    {
+      "type": "potion",
+      "effect": "minecraft:poison",
+      "time": "60",
+      "value": "4"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:darkness",
+      "time": "60",
+      "value": "4"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:blindness",
+      "time": "60",
+      "value": "4"
+    }],
+  "color": "#76E585",
+  "cooking_quality_multiplier": "cos(clamp((age / 60 - 5.0) * 0.25, -2, 2))",
+  "alcoholic_value": "40 * (0.75 + quality / 40)",
+  "ingredients": [
+    {
+      "items": [
+        "minecraft:short_grass"
+      ],
+      "count": 15
+    }
+  ],
+  "distillation_runs": 3,
+  "base_quality_value": "10",
+  "entries":[
+    {
+      "type": "potion",
+      "locked": false,
+      "effect": "minecraft:poison",
+      "time": "(15-quality)",
+      "value": "2"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:blindness",
+      "time": "90+quality*4",
+      "value": "ceil(quality/5)"
+    }
+  ]
+}
+

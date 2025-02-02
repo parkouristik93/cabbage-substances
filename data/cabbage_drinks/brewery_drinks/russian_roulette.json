@@ -1,0 +1,108 @@
+{
+    "version": 2,
+    "book_information": {
+      "best_cooking_time": 360.0,
+      "best_barrel_age": -1200.0
+    },
+    "cooking_quality_multiplier": "cos(clamp((age / 60 - 6.0) * 0.25, -2, 2))",
+    "ingredients": [
+      {
+        "items": [
+          "minecraft:pufferfish"
+        ],
+        "count": 3
+      },
+      {
+        "items": [
+          "minecraft:wheat"
+        ],
+        "count": 2
+      }
+    ],
+    "base_quality_value": "10",
+    "alcoholic_value": "0",
+    "entries": [
+      {
+      "type": "random",
+      "entries":[
+        {
+          "type": "damage",
+          "id": "minecraft:generic",
+          "value": "10"
+        },
+        {
+          "type": "potion",
+          "locked": false,
+          "effect": "minecraft:health_boost",
+          "time": "quality * 60",
+          "value": "1"
+        },
+        {
+          "type": "potion",
+          "effect": "minecraft:saturation",
+          "time": "0.05*7(0.75 + quality / 40)",
+          "value": "1"
+        },
+        {
+          "type": "attributes",
+          "time": "quality * 60",
+          "entries": [
+            {
+              "uuid": [
+                1729037996,
+                -402507667,
+                -1600814949,
+                -508991647
+              ],
+              "name": "Knockback resist",
+              "amount": 1,
+              "operation": "add_value",
+              "type": "generic.knockback_resistance"
+            }
+          ]
+      },
+        {
+          "type": "attributes",
+          "time": "quality * 60",
+          "entries": [
+            {
+              "uuid": [
+                622270671,
+                -1383643182,
+                -1513247934,
+                790355092
+              ],
+              "name": "Negative max health",
+              "amount": -5,
+              "operation": "add_value",
+              "type": "generic.max_health"
+            }
+          ]
+        },
+        {
+          "type": "potion",
+          "locked": false,
+          "effect": "minecraft:mining_fatigue",
+          "time": "quality * 60",
+          "value": "1"
+        }
+      ]
+      },
+      {
+        "type": "delayed",
+        "delay": "0.05",
+        "entries": [
+          {
+            "type": "execute_command",
+            "command": "/clear cabbagepigeon minecraft:glass_bottle 1"
+            }]
+    }
+    ],
+    "name": {
+      "translate": "drinktype.brewery.russian_roulette"
+    },
+    "color": "#FFFFFF",
+    "visual": {
+        "item": "minecraft:pufferfish"
+    }
+  }

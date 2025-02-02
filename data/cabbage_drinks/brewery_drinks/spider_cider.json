@@ -1,0 +1,76 @@
+{
+  "version": 2,
+  "book_information": {
+    "best_cooking_time": 300.0,
+    "best_barrel_age": 3600.0,
+    "best_barrel_type": [
+      "*"
+    ]
+  },
+  "cooking_quality_multiplier": "cos(clamp((age / 60 - 5.0) * 0.25, -2, 2))",
+  "ingredients": [
+    {
+      "items": [
+        "minecraft:spider_eye"
+      ],
+      "count": 1
+    },
+    {
+      "items": [
+        "minecraft:string"
+      ],
+      "count": 2
+    },
+    {
+      "items": [
+        "minecraft:cobweb"
+      ],
+      "count": 1
+    }
+  ],
+  "barrel_definitions": [
+    {
+      "type": "*",
+      "quality_value": "quality",
+      "reveal_time": 1200.0
+    }
+  ],
+  "base_quality_value": "smooth_value_days(3.0, 4.0, 3.0, age) * 10",
+  "alcoholic_value": "9 * (0.75 + quality / 40)",
+  "entries": [
+    {
+      "type": "attributes",
+      "time": "quality * 30",
+      "entries": [
+        {
+          "uuid": [
+            622270671,
+            -1383643182,
+            -1513247934,
+            790355092
+          ],
+          "name": "Паучий лаз",
+          "amount": 2.4,
+          "operation": "add_value",
+          "type": "generic.step_height"
+        }
+      ]
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:poison",
+      "time": "10*(1.25-quality/40)",
+      "value": "0"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:speed",
+      "time": "quality * 30",
+      "value": "quality/5-0.01"
+    }
+  ],
+  "name": {
+    "translate": "drinktype.brewery.spider_cider"
+  },
+  "color": "#be70a0"
+}

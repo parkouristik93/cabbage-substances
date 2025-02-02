@@ -1,0 +1,51 @@
+{
+    "version": 2,
+    "book_information": {
+      "best_cooking_time": 900.0,
+      "best_barrel_age": -1200.0
+    },
+    "cooking_quality_multiplier": "cos(clamp((age/60 - 15.0)*0.5, -2, 2))",
+    "ingredients": [
+      {
+        "items": [
+          "minecraft:charcoal"
+        ],
+        "count": 5
+      },
+      {
+        "items": [
+          "minecraft:redstone"
+        ], "count":2
+      }
+    ],
+    "base_quality_value": "10",
+    "alcoholic_value": "0",
+    "entries": [
+        {
+            "type": "set_alcohol_level",
+            "value": "current-(current*0.33)"
+        },
+        {
+            "type": "potion",
+            "effect": "minecraft:nausea",
+            "time": "15",
+            "value": "0"
+        },
+        {
+          "type": "delayed",
+          "delay": "0.05",
+          "entries": [
+            {
+              "type": "execute_command",
+              "command": "/clear cabbagepigeon minecraft:glass_bottle 1"
+              }]
+      }
+    ],
+    "name": {
+        "translate": "drinktype.brewery.actcarbon"
+      },
+      "color": "#ff0000",
+      "visual": {
+        "item": "minecraft:coal"
+      }    
+}

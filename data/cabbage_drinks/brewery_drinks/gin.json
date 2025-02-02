@@ -1,0 +1,45 @@
+{
+    "version": 2,
+    "book_information": {
+      "best_cooking_time": 180.0,
+      "best_barrel_age": 7200.0,
+      "best_barrel_type": [
+        "birch"
+      ]
+    },
+    "cooking_quality_multiplier": "cos(clamp((age / 60 - 3.0) * 0.25, -2, 2))",
+    "ingredients": [
+      {
+            "items": [
+              "minecraft:wheat"
+            ],
+            "count": 9
+          },
+          {
+            "items": [
+              "minecraft:blue_orchid","minecraft:cornflower"
+            ],
+            "count": 3
+          },
+          {
+            "items": [
+              "minecraft:apple"
+            ],
+            "count": 1
+      }
+    ],
+    "barrel_definitions": [
+      {
+        "type": "minecraft:birch",
+        "quality_value": "quality",
+        "reveal_time": 300
+      }
+    ],
+    "base_quality_value": "smooth_value_days(6.0, 1.5, 3.5, age) * 10",
+    "alcoholic_value": "20 * (0.75 + quality / 40)",
+    "distillation_runs": 2,
+    "name": {
+      "translate": "drinktype.brewery.gin"
+    },
+    "color": "#99ddff"
+  }

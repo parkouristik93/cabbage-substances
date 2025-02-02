@@ -1,0 +1,23 @@
+{
+    "drinktype.brewery.absinthe": "Absinthe",
+    "drinktype.brewery.tequila": "Tequila",
+    "drinktype.brewery.coffee": "Coffee",
+    "drinktype.brewery.gap_cider": "Golden Apple Cider",
+    "drinktype.brewery.made_in_heaven": "Made In Heaven",
+    "drinktype.brewery.mushroom_vodka": "Mushroom Vodka",
+    "drinktype.brewery.red_bull": "Red Bull",
+    "drinktype.brewery.snow_drink": "Snowman's drink",
+    "drinktype.brewery.hot_cocoa": "Hot Cocoa",
+    "drinktype.brewery.kvass":"Kvass",
+    "drinktype.brewery.test":"Test",
+    "drinktype.brewery.actcarbon":"Activated Charcoal",
+    "drinktype.brewery.gin":"Gin",
+    "drinktype.brewery.fish_soup":"Fish soup",
+    "drinktype.brewery.chicken_soup":"Chicken soup",
+    "drinktype.brewery.borsch":"Borsch",
+    "drinktype.brewery.russian_roulette":"Russian roulette",
+    "drinktype.brewery.spider_cider":"Spider cider",
+
+    "redbull.elytra.name":"Houston, we have a problem",
+    "redbull.elytra.lore":"If you read this, you are probably falling"
+}

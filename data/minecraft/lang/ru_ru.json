@@ -1,0 +1,23 @@
+{
+    "drinktype.brewery.absinthe": "Абсцент",
+    "drinktype.brewery.tequila": "Текила",
+    "drinktype.brewery.coffee": "Кофе",
+    "drinktype.brewery.gap_cider": "Златояблочный сидр",
+    "drinktype.brewery.made_in_heaven": "Созданный в Раю",
+    "drinktype.brewery.mushroom_vodka": "Грибная водка",
+    "drinktype.brewery.red_bull": "Рэд Бул",
+    "drinktype.brewery.snow_drink": "Напиток Снежка",
+    "drinktype.brewery.hot_cocoa": "Горячий шоколад",
+    "drinktype.brewery.kvass":"Квас",
+    "drinktype.brewery.test":"Бедроковый порошок",
+    "drinktype.brewery.actcarbon":"Активированный уголь",
+    "drinktype.brewery.gin":"Джинн",
+    "drinktype.brewery.fish_soup":"Уха",
+    "drinktype.brewery.chicken_soup":"Куриный суп",
+    "drinktype.brewery.borsch":"Борщ",
+    "drinktype.brewery.russian_roulette":"Русская рулетка",
+    "drinktype.brewery.spider_cider":"Паучий сидр",
+
+    "redbull.elytra.name":"Хьюстон, у нас проблема",
+    "redbull.elytra.lore":"Не трать свои 5 секунд зря"
+}
