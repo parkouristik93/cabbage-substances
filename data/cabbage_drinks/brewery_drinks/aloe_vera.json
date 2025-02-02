@@ -1,0 +1,39 @@
+{
+    "version": 2,
+    "book_information": {
+      "best_cooking_time": 720.0,
+      "best_barrel_age": -1200.0
+    },
+    "cooking_quality_multiplier": "cos(clamp((age/60 - 12.0)*0.5, -2, 2))",
+    "ingredients": [
+      {
+        "items": [
+          "minecraft:fern","large_fern"
+        ],
+        "count": 5
+      }
+    ],
+    "base_quality_value": "10",
+    "alcoholic_value": "0",
+    "entries": [
+      {
+        "type": "potion",
+        "effect": "minecraft:fire_resistance",
+        "time": "5",
+        "value": "0"
+    },
+    {
+      "type": "potion",
+      "effect": "minecraft:strength",
+      "time": "20",
+      "value": "0"
+  }
+    ],
+    "name": {
+        "translate": "drinktype.brewery.aloe_vera"
+      },
+      "color": "#ff0000",
+      "visual": {
+        "item": "minecraft:large_fern"
+      }    
+}

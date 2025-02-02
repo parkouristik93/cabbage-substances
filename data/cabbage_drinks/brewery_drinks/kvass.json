@@ -1,0 +1,43 @@
+{
+    "version": 2,
+    "book_information": {
+      "best_cooking_time": 600.0,
+      "best_barrel_age": 2400.0,
+      "best_barrel_type": [
+        "*"
+      ]
+    },
+    "cooking_quality_multiplier": "cos(clamp((age / 60 - 10.0) * 0.33333, -2, 2))",
+    "ingredients": [
+      {
+        "items": [
+          "minecraft:bread"
+        ],
+        "count": 5
+      },
+      {
+        "items": [
+          "minecraft:sugar"
+        ],
+        "count": 2
+      }
+    ],
+    "barrel_definitions": [
+      {
+        "type": "*",
+        "quality_value": "quality",
+        "reveal_time": 300.0
+      }
+    ],
+    "base_quality_value": "smooth_value_days(2.0, 1.0, 3.0, age) * 10",
+    "alcoholic_value": "1",
+    "name": {
+      "translate": "drinktype.brewery.kvass"
+    },
+    "color": "#612000",
+    "visual": {
+      "components":{
+        "custom_model_data":699302
+      }
+  }
+  }

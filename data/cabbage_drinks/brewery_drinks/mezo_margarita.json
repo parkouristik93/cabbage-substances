@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "book_information": {
+    "best_cooking_time": 240.0,
+    "best_barrel_age": -1200.0
+  },
+  "cooking_quality_multiplier": "cos(clamp((age / 60 - 4) * 0.6, -2, 2))",
+  "ingredients": [
+    {
+      "items": [
+        "minecraft:pitcher_plant"
+      ],
+      "count": 1
+    },
+    {
+      "items": [
+        "minecraft:azalea","azalea_leaves"
+      ],
+      "count": 4
+    },
+    {
+      "items": [
+        "minecraft:big_dripleaf","small_dripleaf"
+      ],
+      "count": 2
+    },
+    {
+      "items": [
+        "minecraft:bone_block"
+      ],
+      "count": 1
+    }
+  ],
+  "base_quality_value": "10",
+  "alcoholic_value": "22 * (0.75 + quality / 40)",
+  "name": {
+    "translate": "drinktype.brewery.mezo_margarita"
+  },
+  "entries":[
+    {
+      "type": "potion",
+      "locked": false,
+      "effect": "minecraft:infested",
+      "time": "quality * 20",
+      "value": "0"
+    },
+        {
+      "type": "potion",
+      "locked": false,
+      "effect": "minecraft:dolphins_grace",
+      "time": "(quality - 4) * 60",
+      "value": "0"
+        }
+        ],
+  "color": "#f3ff8a",
+  "visual": {
+    "components":{
+      "custom_model_data":699303
+    },
+    "item": "minecraft:pitcher_plant"
+}
+}

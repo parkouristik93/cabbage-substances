@@ -31,6 +31,26 @@
     "drinktype.brewery.vinegar":"Уксус",
     "drinktype.brewery.aloe_vera":"Алоэ вера",
     "drinktype.brewery.blood_mary":"Кровавая Мэри",
+    "drinktype.brewery.candy_eggnog":"Карамельный Эгг-Ног",
+    "drinktype.brewery.eggnog":"Эгг-Ног",
+    "drinktype.brewery.egg":"Яйцо вкрутую",
+    "drinktype.brewery.lava":"Бутилированная лаба",
+    "drinktype.brewery.mezo_margarita":"Мезозойская маргарита",
+    "drinktype.brewery.margarita":"Маргарита",
+    "drinktype.brewery.chocolate":"Молочный шоколад",
+    "drinktype.brewery.chocolate_d":"Тёмный шоколад",
+    "drinktype.brewery.chocolate_w":"Белый шоколад",
+
+
+    "drinktype.brewery.size_1":"§oАлиса в стране чудес",
+    "drinktype.brewery.size_05":"§oУгощенье паука",
+    "drinktype.brewery.size_025":"§oМуравьиный сахар",
+    "drinktype.brewery.size_001":"§oАтомник",
+    "drinktype.brewery.size_15":"§oЗапретный плод Эндермана",
+    "drinktype.brewery.size_25":"§oЭссенция Мото-Мото",
+    "drinktype.brewery.size_5":"§oСердце Гиганта",
+    "drinktype.brewery.brick":"Съедобный кирпич",
+    "brick.eat.message":"сожрал кирпич.",
 
     "redbull.elytra.name":"Хьюстон, у нас проблема",
     "redbull.elytra.lore":"Не трать свои 5 секунд зря"
