@@ -8,7 +8,7 @@
     "ingredients": [
       {
         "items": [
-          "minecraft:charcoal"
+          "minecraft:charcoal","coal"
         ],
         "count": 5
       },
@@ -23,23 +23,14 @@
     "entries": [
         {
             "type": "set_alcohol_level",
-            "value": "current-(current*0.33)"
+            "value": "current-(current*0.33*quality/10)"
         },
         {
             "type": "potion",
             "effect": "minecraft:nausea",
             "time": "15",
             "value": "0"
-        },
-        {
-          "type": "delayed",
-          "delay": "0.05",
-          "entries": [
-            {
-              "type": "execute_command",
-              "command": "/clear cabbagepigeon minecraft:glass_bottle 1"
-              }]
-      }
+        }
     ],
     "name": {
         "translate": "drinktype.brewery.actcarbon"

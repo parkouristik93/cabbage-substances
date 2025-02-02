@@ -87,16 +87,7 @@
           "value": "1"
         }
       ]
-      },
-      {
-        "type": "delayed",
-        "delay": "0.05",
-        "entries": [
-          {
-            "type": "execute_command",
-            "command": "/clear cabbagepigeon minecraft:glass_bottle 1"
-            }]
-    }
+      }
     ],
     "name": {
       "translate": "drinktype.brewery.russian_roulette"
