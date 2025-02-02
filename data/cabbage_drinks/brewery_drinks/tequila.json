@@ -1,0 +1,60 @@
+{
+    "version": 2,
+    "unfinished_brew_effects": [
+      {
+        "type": "damage",
+        "id": "minecraft:cactus",
+        "value": "7"
+      }
+    ],
+    "book_information": {
+      "best_cooking_time": 900,
+      "best_barrel_age": 3600.0,
+      "best_barrel_type": [
+        "acacia"
+      ]
+    },
+    "cooking_quality_multiplier": "cos(clamp((age / 60 - 15.0) * 0.25, -2, 2))",
+    "ingredients": [
+      {
+        "items": [
+          "minecraft:cactus"
+        ],
+        "count": 8
+      }
+    ],
+    "base_quality_value": "smooth_value_days(3.0, 1.0, 1.0, age)*10",
+    "alcoholic_value": "20 * (0.75 + quality / 40)",
+    "distillation_runs": 2,
+    "barrel_definitions": [
+      {
+        "type": "acacia",
+        "quality_value": "quality",
+        "reveal_time": 300
+      }
+    ],
+    "entries": [
+      {
+        "type": "potion",
+        "locked": false,
+        "effect": "minecraft:poison",
+        "time": "(6 - quality) * 10",
+        "value": "0"
+      },
+      {
+        "type": "damage",
+        "id": "minecraft:cactus",
+        "value": "13-quality"
+      }
+    ],
+    "name": {
+      "translate": "drinktype.brewery.tequila"
+    },
+    "color": "#f5f07e",
+    "visual": {
+      "components":{
+        "custom_model_data":699301
+      },
+      "item": "minecraft:potion"
+  }
+  }

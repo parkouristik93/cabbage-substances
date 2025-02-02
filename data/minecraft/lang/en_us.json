@@ -48,6 +48,8 @@
     "drinktype.brewery.size_15":"§oEnderman's forbidden fruit",
     "drinktype.brewery.size_25":"§oMotto Motto's essence",
     "drinktype.brewery.size_5":"§oGiant's heart",
+    "drinktype.brewery.brick":"Edible brick",
+    "brick.eat.message":"reportedly ate a brick.",
 
     "redbull.elytra.name":"Houston, we have a problem",
     "redbull.elytra.lore":"If you read this, you are probably falling"

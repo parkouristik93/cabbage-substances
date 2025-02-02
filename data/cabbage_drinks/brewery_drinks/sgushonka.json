@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "book_information": {
+    "best_cooking_time": 720.0,
+    "best_barrel_age": -1200.0
+  },
+  "cooking_quality_multiplier": "cos(clamp((age / 60 - 12.0) * 0.66, -2, 2))",
+  "ingredients": [
+    {
+      "items": [
+        "minecraft:milk_bucket"
+      ],
+      "count": 3
+    },
+    {
+      "items": [
+        "minecraft:sugar"
+      ],
+      "count": 7
+    }
+  ],
+  "base_quality_value": "10",
+  "alcoholic_value": "0",
+  "entries": [
+    {
+      "type": "execute_command",
+      "command": "/effect clear @s"
+    },
+    {
+      "type": "potion",
+      "locked": false,
+      "particles": false,
+      "effect": "minecraft:haste",
+      "time": "quality * 20",
+      "value": "0"
+    }
+  ],
+  "name": {
+    "translate": "drinktype.brewery.sgushonka"
+  },
+  "color": "#B33C00",
+  "visual": {
+    "item": "minecraft:milk_bucket"
+  }  
+}

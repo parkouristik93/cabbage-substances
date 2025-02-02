@@ -1,6 +1,14 @@
 {
     "pack": {
-        "pack_format": 61,
-        "description": "Expansion for Patbox's Brewery"
-    }
+        "pack_format": 48,
+        "description": "Expantion for Patbox's Brewery"
+    },
+    "filter": {
+		"block": [
+			{
+				"namespace": "brewery",
+				"path": "(brewery_drinks)[a-z]*"
+			}
+		]
+	}
 }
