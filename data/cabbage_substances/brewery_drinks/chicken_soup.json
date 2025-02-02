@@ -42,7 +42,8 @@
     "visual": {
         "item": "minecraft:mushroom_stew",
         "components":{
-          "custom_model_data":699301
+          "custom_model_data":699301,
+          "consumable":{sound:"entity.generic.eat"}
         }
     }
   }

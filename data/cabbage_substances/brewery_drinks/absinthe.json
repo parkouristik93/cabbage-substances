@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "name": {"translate":"drinktype.brewery.absinthe"},
   "book_information": {
     "best_cooking_time": 300.0,
@@ -24,7 +24,6 @@
       "time": "60",
       "value": "4"
     }],
-  "color": "#76E585",
   "cooking_quality_multiplier": "cos(clamp((age / 60 - 5.0) * 0.25, -2, 2))",
   "alcoholic_value": "40 * (0.75 + quality / 40)",
   "ingredients": [
@@ -52,6 +51,7 @@
       "value": "ceil(quality/5)"
     }
   ],
+  "color": "#76E585",
   "visual": {
     "components":{
       "custom_model_data":699301

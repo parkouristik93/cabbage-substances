@@ -33,6 +33,18 @@
       "effect": "minecraft:speed",
       "time": "(quality/2 - 3) * 50",
       "value": "0"
+    },
+    {
+      "type": "delayed",
+      "delay": "(quality/2 - 3) * 50",
+      "entries": [
+        {
+          "type": "potion",
+          "effect": "minecraft:slowness",
+          "time": "60",
+          "value": "0"
+        }
+      ]
     }
   ],
   "name": {

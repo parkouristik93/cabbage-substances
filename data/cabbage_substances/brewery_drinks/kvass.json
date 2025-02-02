@@ -26,7 +26,7 @@
       {
         "type": "*",
         "quality_value": "quality",
-        "reveal_time": 300.0
+        "reveal_time": 1000.0
       }
     ],
     "base_quality_value": "smooth_value_days(2.0, 1.0, 3.0, age) * 10",
@@ -34,10 +34,10 @@
     "name": {
       "translate": "drinktype.brewery.kvass"
     },
-    "color": "#612000",
+    "color": "#8a2e00",
     "visual": {
       "components":{
         "custom_model_data":699302
       }
   }
-  }
+}
