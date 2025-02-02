@@ -1,5 +1,5 @@
 {
-    "version": 2,
+    "version": 3,
     "book_information": {
       "best_cooking_time": 720.0,
       "best_barrel_age": -1200.0
@@ -15,7 +15,7 @@
     ],
     "base_quality_value": "10",
     "alcoholic_value": "0",
-    "entries": [
+    "effects": [
       {
         "type": "potion",
         "effect": "minecraft:fire_resistance",

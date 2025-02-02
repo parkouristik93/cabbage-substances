@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "book_information": {
     "best_cooking_time": 480.0,
     "best_barrel_age": 4200.0,
@@ -25,7 +25,7 @@
   ],
   "base_quality_value": "smooth_value_days(3.5, 2.0, 5.0, age) * 10",
   "alcoholic_value": "6 * (0.75 + quality / 40)",
-  "entries": [
+  "effects": [
     {
       "type": "potion",
       "locked": false,

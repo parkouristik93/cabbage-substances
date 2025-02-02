@@ -1,11 +1,11 @@
 {
-    "version": 2,
+    "version": 3,
     "unfinished_brew_effects": [
       {
         "type": "potion",
         "effect": "minecraft:speed",
         "time": "30",
-        "value": "1"
+        "value": "4"
       },
       {
         "type": "delayed",
@@ -19,13 +19,13 @@
       }
     ],
     "book_information": {
-      "best_cooking_time": 1200.0,
-      "best_barrel_age": 54000.0,
+      "best_cooking_time": 600.0,
+      "best_barrel_age": 1200.0,
       "best_barrel_type": [
         "crimson","warped"
       ]
     },
-    "cooking_quality_multiplier": "cos(clamp((age/60 - 20.0)*0.5, -2, 2))",
+    "cooking_quality_multiplier": "cos(clamp((age/60 - 10.0)*0.5, -2, 2))",
     "ingredients": [
       {
         "items": [
@@ -44,10 +44,16 @@
           "minecraft:nether_star"
         ],
         "count":1
+      },
+      {
+        "items":[
+          "minecraft:enchanted_golden_apple"
+        ],
+        "count":1
       }
     ],
     "distillation_runs": 10,
-    "base_quality_value": "smooth_value_days(45.0, 0.25, 0.1, age)*10",
+    "base_quality_value": "smooth_value_minutes(20.0, 1.0, 0.1, age)*10",
     "barrel_definitions": [
       {
         "type": "crimson",
@@ -60,18 +66,18 @@
         "reveal_time": 480.0
       }
     ],
-    "alcoholic_value": "90*(1+(10-quality)*0.05)",
-    "entries": [
+    "alcoholic_value": "90",
+    "effects": [
         {
             "type": "potion",
             "locked": false,
             "effect": "minecraft:speed",
-            "time": "300",
-            "value": "1"
+            "time": "120*quality",
+            "value": "4"
         },
         {
             "type": "execute_command",
-            "command": "/tick sprint 300s",
+            "command": "/tick sprint 1d",
             "apply_check": "quality - 6"
         },
         {
@@ -80,7 +86,7 @@
           "entries":[
             {
             "type": "delayed",
-           "delay": "300",
+           "delay": "1200",
             "entries": [
               {
                 "type": "set_alcohol_level",
@@ -93,11 +99,11 @@
     "name": {
       "translate": "drinktype.brewery.heaven"
     },
-    "color": "#440444",
+    "color": "#7c047c",
     "visual": {
       "components":{
         "custom_model_data":699303,
         "enchantment_glint_override":true
       }
   }
-  }
+}

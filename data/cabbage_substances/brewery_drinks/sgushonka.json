@@ -40,6 +40,9 @@
   },
   "color": "#B33C00",
   "visual": {
+    "components":{
+      "consumable":{sound:"item.honey_bottle.drink"}
+    },
     "item": "minecraft:milk_bucket"
-  }  
+}
 }

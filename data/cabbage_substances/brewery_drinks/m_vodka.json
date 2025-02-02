@@ -79,7 +79,7 @@
     "name": {
       "translate": "drinktype.brewery.mushroom_vodka"
     },
-    "color": "#ffeadb",
+    "color": "#ffd2b3",
     "visual": {
       "components":{
         "custom_model_data":699301
