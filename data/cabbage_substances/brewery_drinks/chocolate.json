@@ -45,14 +45,35 @@
       "value": "quality/2+0.01"
     }
   ],
-  "name": {
-    "translate": "drinktype.brewery.chocolate"
-  },
-  "color": "#000000",
-  "visual": {
-    "sound_event":"minecraft:entity.generic.eat",
+  "name": [
+    {
+      "for": 4.99,
+      "result": {"translate": "drinktype.brewery.chocolate_u"}
+    },
+    {
+      "for": 5,
+      "result": {"translate": "drinktype.brewery.chocolate"}
+    }
+  ],
+  "color": "#84563c",
+  "visual": 
+  [
+    {
+    "for":4.99,
+    "result":
+      {
+    "model":"minecraft:lingering_potion"
+     }
+   },
+   {
+  "for":5,
+  "result":
+      {
+"sound_event":"minecraft:entity.generic.eat",
     "animation":"eat",
        "particles": true,
-    "model":"minecraft:nether_brick"
-  }  
+    "model":"minecraft:brick"
+      }
+    }
+  ]
 }

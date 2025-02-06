@@ -8,21 +8,21 @@
     "ingredients": [
       {
         "items": [
-          "minecraft:cod","minecraft:salmon"
+          "minecraft:tropical_fish"
         ],
         "count": 2
       },
       {
         "items": [
-          "minecraft:potato"
+          "minecraft:short_grass"
         ],
         "count": 3
       },
       {
         "items": [
-          "minecraft:carrot"
+          "minecraft:brown_mushroom"
         ],
-        "count": 1
+        "count": 3
       }
     ],
     "base_quality_value": "10",
@@ -38,9 +38,9 @@
         }
     ],
     "name": {
-      "translate": "drinktype.brewery.fish_soup"
+      "translate": "drinktype.brewery.tom_yum"
     },
-    "color": "#c2fd86",
+    "color": "#ff600a",
     "visual": {
       "sound_event":"minecraft:entity.generic.eat",
       "animation":"eat",
