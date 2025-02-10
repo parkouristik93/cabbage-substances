@@ -3,7 +3,10 @@
     "drinktype.brewery.tequila": "Tequila",
     "drinktype.brewery.coffee": "Coffee",
     "drinktype.brewery.gap_cider": "Golden Apple Cider",
+
     "drinktype.brewery.heaven": "Made In Heaven",
+    "drinktype.brewery.u_heaven":"Potion of Unstable Speed",
+
     "drinktype.brewery.mushroom_vodka": "Mushroom Vodka",
     "drinktype.brewery.red_bull": "Red Bull",
     "drinktype.brewery.snow_drink": "Snowman's drink",
@@ -36,11 +39,18 @@
     "drinktype.brewery.lava":"Drinkable lava",
     "drinktype.brewery.mezo_margarita":"Mesozoic margarita",
     "drinktype.brewery.margarita":"Margarita",
+
     "drinktype.brewery.chocolate":"Milk chocolate",
+    "drinktype.brewery.chocolate_u":"Melted milk chocolate",
     "drinktype.brewery.chocolate_d":"Dark chocolate",
+    "drinktype.brewery.chocolate_d_u":"Melted dark chocolate",
     "drinktype.brewery.chocolate_w":"White chocolate",
+    "drinktype.brewery.chocolate_w_u":"Melted white chocolate",
+
     "drinktype.brewery.recall":"Recall Potion",
     "drinktype.brewery.fire_whiskey":"Fireball Whiskey",
+    "drinktype.brewery.sake":"Sake",
+    "drinktype.brewery.tom_yum":"Tom yum",
 
     "redbull.elytra.name":"Houston, we have a problem",
     "redbull.elytra.lore":"If you read this, you are probably falling"

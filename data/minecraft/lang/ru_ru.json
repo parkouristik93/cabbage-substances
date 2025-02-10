@@ -3,7 +3,10 @@
     "drinktype.brewery.tequila": "Текила",
     "drinktype.brewery.coffee": "Кофе",
     "drinktype.brewery.gap_cider": "Златояблочный сидр",
+
     "drinktype.brewery.heaven": "Созданный в Раю",
+    "drinktype.brewery.u_heaven":"Зелье Нестабильной Скорости",
+
     "drinktype.brewery.mushroom_vodka": "Грибная водка",
     "drinktype.brewery.red_bull": "Рэд Бул",
     "drinktype.brewery.snow_drink": "Напиток Снежка",
@@ -36,12 +39,19 @@
     "drinktype.brewery.lava":"Питьевая лава",
     "drinktype.brewery.mezo_margarita":"Мезозойская маргарита",
     "drinktype.brewery.margarita":"Маргарита",
+
+    "drinktype.brewery.chocolate_u":"Растопленный молочный шоколад",
+    "drinktype.brewery.chocolate_d_u":"Растопленный тёмный шоколад",
+    "drinktype.brewery.chocolate_w_u":"Растопленный белый шоколад",
     "drinktype.brewery.chocolate":"Молочный шоколад",
     "drinktype.brewery.chocolate_d":"Тёмный шоколад",
     "drinktype.brewery.chocolate_w":"Белый шоколад",
+
     "drinktype.brewery.recall":"Зелье возврата",
     "drinktype.brewery.carrot_cake":"Морковный торт",
     "drinktype.brewery.fire_whiskey":"Виски \"Огеннный шар\"",
+    "drinktype.brewery.sake":"Саке",
+    "drinktype.brewery.tom_yum":"Том ям",
 
     "redbull.elytra.name":"Хьюстон, у нас проблема",
     "redbull.elytra.lore":"Не трать свои 5 секунд зря"
