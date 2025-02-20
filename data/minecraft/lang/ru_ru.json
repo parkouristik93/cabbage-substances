@@ -8,7 +8,7 @@
     "drinktype.brewery.u_heaven":"Зелье Нестабильной Скорости",
 
     "drinktype.brewery.mushroom_vodka": "Грибная водка",
-    "drinktype.brewery.red_bull": "Рэд Бул",
+    "drinktype.brewery.red_bull": "Рэд Булл",
     "drinktype.brewery.snow_drink": "Напиток Снежка",
     "drinktype.brewery.hot_cocoa": "Горячий шоколад",
     "drinktype.brewery.kvass":"Квас",
@@ -54,5 +54,7 @@
     "drinktype.brewery.tom_yum":"Том ям",
 
     "redbull.elytra.name":"Хьюстон, у нас проблема",
-    "redbull.elytra.lore":"Не трать свои 5 секунд зря"
+    "redbull.elytra.lore":"Не трать свои 5 секунд зря",
+    "redbull.launch":"Рэд Булл окрыляяяет",
+    "redbull.land":"Приземляемся..."
 }

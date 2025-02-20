@@ -68,54 +68,53 @@
     ],
     "alcoholic_value": "70",
     "effects": [
-    {
-      "type": "random",
-      "apply_check": "6.99 - quality",
-      "entries":[
-    {
-          "type": "potion",
-          "locked": false,
-          "effect": "minecraft:speed",
-          "time": "15*quality",
-          "value": "random()*5"
-      }]
-    },
-    {
-      "type": "random",
-      "apply_check": "quality - 7",
-      "entries":[
-    {
-          "type": "potion",
-          "locked": false,
-          "effect": "minecraft:speed",
-          "time": "120*quality",
-          "value": "4"
-      }]
-    },
       {
-          "type": "execute_command",
-          "command": "/tick sprint 1d",
-          "apply_check": "quality - 7"
-      },
-      {
-        "type": "random",
-        "apply_check": "quality - 7",
-        "entries":[
+        "type": "quality_select",
+        "entries": 
+        [
           {
-          "type": "delayed",
-         "delay": "1200",
-          "entries": [
+            "for":6,
+            "result":
             {
-              "type": "add_alcohol_level",
-             "value": "90*(1+(10-quality)*0.05)"
-            }]
+              "type": "potion",
+              "locked": false,
+              "effect": "minecraft:speed",
+              "time": "15*quality",
+              "value": "random()*5"
+            }
+          },
+          {
+            "for":7,
+            "result":
+            [
+              {
+                "type": "potion",
+                "locked": false,
+                "effect": "minecraft:speed",
+                "time": "120*quality",
+                "value": "4"
+            },
+            {
+                "type": "execute_command",
+                "command": "/tick sprint 1d"
+            },
+            {
+              "type": "delayed",
+              "delay": "1200",
+              "entries": [
+              {
+                "type": "add_alcohol_level",
+                 "value": "90*(1+(10-quality)*0.05)"
+              }]
+            }
+            ]
           }
         ]
       }
-      ],
+    ],
   "name": [
     {
-      "for": 6.99,
+      "for": 6,
       "result": {"translate": "drinktype.brewery.u_heaven"}
     },
     {
@@ -127,12 +126,12 @@
   "visual": 
   [
     {
-    "for":6.99,
+    "for":6,
     "result":
       {
     "components":
        {
-      "rarity":"rare"
+      "rarity":"epic"
         },
     "model":"minecraft:lingering_potion"
      }
@@ -143,7 +142,7 @@
       {
   "components":
         {
-    "rarity":"rare"
+    "rarity":"epic"
         },
   "resource_pack_model": "cabbage_substances:drink"
       }
