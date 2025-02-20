@@ -1,0 +1,128 @@
+{
+    "version": 4,
+    "book_information": {
+      "best_cooking_time": 180.0,
+      "best_barrel_age": -1200.0
+    },
+    "cooking_quality_multiplier": "cos(clamp((age / 60 - 3.0) * 0.33, -2, 2))",
+    "ingredients": [
+      {
+        "items": [
+          "minecraft:wheat_seeds","pumpkin_seeds","melon_seeds","beetroot_seeds","torchflower_seeds"
+        ],
+        "count": 64
+      }
+    ],
+    "base_quality_value": "10",
+    "drinking_time": "1",
+    "required_container": "bucket",
+    "alcoholic_value": "0",
+    "effects": [
+        {
+        "type": "quality_select",
+        "entries":
+        [
+          [
+            {
+              "type": "potion",
+              "effect": "minecraft:nausea",
+              "time": "10",
+              "value": "0"
+            }
+        ],
+          [
+          {
+            "type": "potion",
+            "effect": "minecraft:saturation",
+            "time": "0.05",
+            "value": "0"
+          }
+        ],
+          [
+            {
+              "type": "execute_command",
+              "command": "/give @s pumpkin_seeds[food={nutrition:1,saturation:1,can_always_eat:true},consumable={consume_seconds:1,animation:\"eat\",sound:\"entity.generic.eat\",has_consume_particles:true},item_name='{\"translate\":\"drinktype.brewery.popcorn\"}',lore=['{\"translate\":\"drinktype.brewery.popcorn1\"}']]"
+            },
+          {
+            "type": "potion",
+            "effect": "minecraft:saturation",
+            "time": "0.05",
+            "value": "0"
+          }
+        ],
+          [
+            {
+              "type": "execute_command",
+              "command": "/give @s pumpkin_seeds[food={nutrition:1,saturation:1,can_always_eat:true},consumable={consume_seconds:1,animation:\"eat\",sound:\"entity.generic.eat\",has_consume_particles:true},item_name='{\"translate\":\"drinktype.brewery.popcorn\"}',lore=['{\"translate\":\"drinktype.brewery.popcorn2\"}'],use_remainder={id:\"minecraft:pumpkin_seeds\",count:1,components:{\"minecraft:food\":{nutrition:1,saturation:1,can_always_eat:true},\"minecraft:consumable\":{consume_seconds:1,animation:\"eat\",sound:\"entity.generic.eat\",has_consume_particles:true},\"minecraft:item_name\":'{\"translate\":\"drinktype.brewery.popcorn\"}',\"minecraft:lore\":['{\"translate\":\"drinktype.brewery.popcorn1\"}']}}]"
+            },
+          {
+            "type": "potion",
+            "effect": "minecraft:saturation",
+            "time": "0.05",
+            "value": "0"
+          }
+        ],
+          [
+            {
+              "type": "execute_command",
+              "command": "/give @s pumpkin_seeds[food={nutrition:1,saturation:1,can_always_eat:true},consumable={consume_seconds:1,animation:\"eat\",sound:\"entity.generic.eat\",has_consume_particles:true},item_name='{\"translate\":\"drinktype.brewery.popcorn\"}',lore=['{\"translate\":\"drinktype.brewery.popcorn3\"}'],use_remainder={id:\"minecraft:pumpkin_seeds\",count:1,components:{\"minecraft:food\":{nutrition:1,saturation:1,can_always_eat:true},\"minecraft:consumable\":{consume_seconds:1,animation:\"eat\",sound:\"entity.generic.eat\",has_consume_particles:true},\"minecraft:item_name\":'{\"translate\":\"drinktype.brewery.popcorn\"}',\"minecraft:lore\":['{\"translate\":\"drinktype.brewery.popcorn2\"}'],\"minecraft:use_remainder\":{id:\"minecraft:pumpkin_seeds\",count:1,components:{\"minecraft:food\":{nutrition:1,saturation:1,can_always_eat:true},\"minecraft:consumable\":{consume_seconds:1,animation:\"eat\",sound:\"entity.generic.eat\",has_consume_particles:true},\"minecraft:item_name\":'{\"translate\":\"drinktype.brewery.popcorn\"}',\"minecraft:lore\":['{\"translate\":\"drinktype.brewery.popcorn1\"}']}}}}]"
+            },
+          {
+            "type": "potion",
+            "effect": "minecraft:saturation",
+            "time": "0.05",
+            "value": "0"
+          }
+        ],
+          [
+          {
+            "type": "execute_command",
+            "command": "/give @s pumpkin_seeds[food={nutrition:1,saturation:1,can_always_eat:true},consumable={consume_seconds:1,animation:\"eat\",sound:\"entity.generic.eat\",has_consume_particles:true},item_name='{\"translate\":\"drinktype.brewery.popcorn\"}',lore=['{\"translate\":\"drinktype.brewery.popcorn4\"}'],use_remainder={id:\"minecraft:pumpkin_seeds\",count:1,components:{\"minecraft:food\":{nutrition:1,saturation:1,can_always_eat:true},\"minecraft:consumable\":{consume_seconds:1,animation:\"eat\",sound:\"entity.generic.eat\",has_consume_particles:true},\"minecraft:item_name\":'{\"translate\":\"drinktype.brewery.popcorn\"}',\"minecraft:lore\":['{\"translate\":\"drinktype.brewery.popcorn3\"}'],\"minecraft:use_remainder\":{id:\"minecraft:pumpkin_seeds\",count:1,components:{\"minecraft:food\":{nutrition:1,saturation:1,can_always_eat:true},\"minecraft:consumable\":{consume_seconds:1,animation:\"eat\",sound:\"entity.generic.eat\",has_consume_particles:true},\"minecraft:item_name\":'{\"translate\":\"drinktype.brewery.popcorn\"}',\"minecraft:lore\":['{\"translate\":\"drinktype.brewery.popcorn2\"}'],\"minecraft:use_remainder\":{id:\"minecraft:pumpkin_seeds\",count:1,components:{\"minecraft:food\":{nutrition:1,saturation:1,can_always_eat:true},\"minecraft:consumable\":{consume_seconds:1,animation:\"eat\",sound:\"entity.generic.eat\",has_consume_particles:true},\"minecraft:item_name\":'{\"translate\":\"drinktype.brewery.popcorn\"}',\"minecraft:lore\":['{\"translate\":\"drinktype.brewery.popcorn1\"}']}}}}}}]"
+          },
+          {
+            "type": "potion",
+            "effect": "minecraft:saturation",
+            "time": "0.05",
+            "value": "0"
+          }
+        ]
+        ]
+        }
+    ],
+    "name": {
+      "translate": "drinktype.brewery.popcorn"
+    },
+    "color": "#ff600a",
+    "visual": [
+  {
+    "sound_event":"minecraft:entity.generic.eat",
+    "animation":"eat",
+     "particles": true,
+     "model":"melon_seeds"
+  },
+  {
+    "sound_event":"minecraft:entity.generic.eat",
+    "animation":"eat",
+     "particles": true,
+     "model":"beetroot_seeds"
+  },
+  {
+    "sound_event":"minecraft:entity.generic.eat",
+    "animation":"eat",
+     "particles": true,
+     "model":"beetroot_seeds"
+  },
+  {
+    "sound_event":"minecraft:entity.generic.eat",
+    "animation":"eat",
+     "particles": true,
+     "model":"pumpkin_seeds"
+  },
+  {
+    "sound_event":"minecraft:entity.generic.eat",
+    "animation":"eat",
+     "particles": true,
+     "model":"pumpkin_seeds"
+  }
+    ]
+  }

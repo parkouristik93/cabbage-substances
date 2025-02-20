@@ -1,0 +1,124 @@
+{
+    "version": 4,
+    "book_information": {
+      "best_cooking_time": 600.0,
+      "best_barrel_age": -1200.0
+    },
+    "cooking_quality_multiplier": "cos(clamp((age / 60 - 10.0) * 0.33, -2, 2))",
+    "ingredients": [
+      {
+        "items": [
+          "minecraft:chicken"
+        ],
+        "count": 2
+      },
+      {
+        "items": [
+          "minecraft:bread"
+        ],
+        "count": 1
+      },
+      {
+        "items": [
+          "minecraft:egg"
+        ],
+        "count": 4
+      }
+    ],
+    "base_quality_value": "10",
+    "drinking_time": "1",
+    "required_container": "bucket",
+    "alcoholic_value": "0",
+    "effects": [
+        {
+        "type": "quality_select",
+        "entries":
+        [
+          [
+            {
+              "type": "potion",
+              "effect": "minecraft:hunger",
+              "time": "30",
+              "value": "0"
+            }
+        ],
+        [
+          {
+            "type": "potion",
+            "effect": "minecraft:hunger",
+            "time": "15",
+            "value": "0"
+          }
+      ],
+          [
+          {
+            "type": "potion",
+            "effect": "minecraft:saturation",
+            "time": "0.05",
+            "value": "1"
+          }
+        ],
+          [
+            {
+              "type": "execute_command",
+              "command": "/give @s baked_potato[item_name='{\"translate\":\"drinktype.brewery.nuggets\"}',lore=['{\"translate\":\"drinktype.brewery.nuggets1\"}'],consumable={consume_seconds:1,animation:\"eat\",sound:\"entity.generic.eat\",has_consume_particles:true},food={nutrition:2,saturation:2,can_always_eat:true}]"
+            },
+          {
+            "type": "potion",
+            "effect": "minecraft:saturation",
+            "time": "0.05",
+            "value": "1"
+          }
+        ],
+          [
+            {
+              "type": "execute_command",
+              "command": "/give @s baked_potato[item_name='{\"translate\":\"drinktype.brewery.nuggets\"}',lore=['{\"translate\":\"drinktype.brewery.nuggets2\"}'],consumable={consume_seconds:1,animation:\"eat\",sound:\"entity.generic.eat\",has_consume_particles:true},food={nutrition:2,saturation:2,can_always_eat:true},use_remainder={id:\"minecraft:baked_potato\",count:1,components:{\"minecraft:item_name\":'{\"translate\":\"drinktype.brewery.nuggets\"}',\"minecraft:lore\":['{\"translate\":\"drinktype.brewery.nuggets1\"}'],\"minecraft:consumable\":{consume_seconds:1,animation:\"eat\",sound:\"entity.generic.eat\",has_consume_particles:true},\"minecraft:food\":{nutrition:2,saturation:2,can_always_eat:true}}}]"
+            },
+          {
+            "type": "potion",
+            "effect": "minecraft:saturation",
+            "time": "0.05",
+            "value": "1"
+          }
+        ]
+        ]
+        }
+    ],
+    "name": {
+      "translate": "drinktype.brewery.nuggets"
+    },
+    "color": "#ff600a",
+    "visual": [
+  {
+    "sound_event":"minecraft:entity.generic.eat",
+    "animation":"eat",
+     "particles": true,
+     "model":"chicken"
+  },
+  {
+    "sound_event":"minecraft:entity.generic.eat",
+    "animation":"eat",
+     "particles": true,
+     "model":"chicken"
+  },
+  {
+    "sound_event":"minecraft:entity.generic.eat",
+    "animation":"eat",
+     "particles": true,
+     "model":"baked_potato"
+  },
+  {
+    "sound_event":"minecraft:entity.generic.eat",
+    "animation":"eat",
+     "particles": true,
+     "model":"baked_potato"
+  },
+  {
+    "sound_event":"minecraft:entity.generic.eat",
+    "animation":"eat",
+     "particles": true,
+     "model":"baked_potato"
+  }
+    ]
+  }

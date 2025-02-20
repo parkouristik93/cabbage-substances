@@ -52,6 +52,17 @@
     "drinktype.brewery.fire_whiskey":"Виски \"Огеннный шар\"",
     "drinktype.brewery.sake":"Саке",
     "drinktype.brewery.tom_yum":"Том ям",
+    "drinktype.brewery.melon_smoothie":"Арбузный смузи",
+
+    "drinktype.brewery.popcorn":"Попкорн",
+    "drinktype.brewery.popcorn4":"Попкорн 4/5",
+    "drinktype.brewery.popcorn3":"Попкорн 3/5",
+    "drinktype.brewery.popcorn2":"Попкорн 2/5",
+    "drinktype.brewery.popcorn1":"Попкорн 1/5",
+
+    "drinktype.brewery.nuggets":"Наггетсы",
+    "drinktype.brewery.nuggets1":"Наггетсы 1/3",
+    "drinktype.brewery.nuggets2":"Наггетсы 2/3",
 
     "redbull.elytra.name":"Хьюстон, у нас проблема",
     "redbull.elytra.lore":"Не трать свои 5 секунд зря",
