@@ -31,7 +31,7 @@
   "name": {
     "translate": "drinktype.brewery.eggnog"
   },
-  "entries":[
+  "effects":[
     {
       "type": "potion",
       "locked": false,

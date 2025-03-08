@@ -21,7 +21,7 @@
   "base_quality_value": "10",
   "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
   "alcoholic_value": "-0.7*quality",
-  "entries": [
+  "effects": [
     {
       "type": "potion",
       "locked": false,

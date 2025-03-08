@@ -29,7 +29,7 @@
     "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
     "required_container": "bowl",
     "alcoholic_value": "0",
-    "entries": [
+    "effects": [
         {
         "type": "potion",
         "effect": "minecraft:saturation",
