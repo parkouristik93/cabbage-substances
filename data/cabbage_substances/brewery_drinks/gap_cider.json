@@ -58,7 +58,7 @@
   },
   "color": "#B49804",
   "visual": {
-    "resource_pack_model": "cabbage_substances:drink",
+    "resource_pack_model": "cabbage_substances:wine_glass",
     "components":{
       "enchantment_glint_override":true,
       "rarity":"rare"

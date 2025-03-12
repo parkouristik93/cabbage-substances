@@ -29,7 +29,7 @@
     "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
     "required_container": "bowl",
     "alcoholic_value": "0",
-    "effects": [
+    "entries": [
         {
         "type": "potion",
         "effect": "minecraft:saturation",
@@ -46,6 +46,6 @@
       "animation":"eat",
        "particles": true,
        "model":"suspicious_stew",
-       "resource_pack_model": "cabbage_substances:drink"
+       "resource_pack_model": "cabbage_substances:chicken_soup"
     }
   }

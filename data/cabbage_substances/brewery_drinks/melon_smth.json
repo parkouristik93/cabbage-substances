@@ -28,5 +28,5 @@
     "translate": "drinktype.brewery.melon_smoothie"
   },
   "color": "#db3a0b",
-  "visual":{"resource_pack_model": "cabbage_substances:drink"}
+  "visual":{"resource_pack_model": "cabbage_substances:tall_glass"}
 }

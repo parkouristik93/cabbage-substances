@@ -24,12 +24,8 @@
   "alcoholic_value": "0",
   "effects": [
     {
-        "type": "consume_effects",
-        "entries": [
-          {
-          "type":"minecraft:clear_all_effects"
-          }
-      ]
+      "type": "execute_command",
+      "command": "/effect clear @s"
     },
     {
       "type": "potion",

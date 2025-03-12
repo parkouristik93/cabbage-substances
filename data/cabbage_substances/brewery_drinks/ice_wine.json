@@ -49,5 +49,5 @@
     "translate": "drinktype.brewery.ice_wine"
   },
   "color": "#9efcff",
-  "visual":{"resource_pack_model": "cabbage_substances:drink"}
+  "visual":{"resource_pack_model": "cabbage_substances:wine_glass"}
 }

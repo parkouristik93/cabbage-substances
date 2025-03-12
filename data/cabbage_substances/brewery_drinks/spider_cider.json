@@ -40,6 +40,10 @@
   "alcoholic_value": "9 * (0.75 + quality / 40)",
   "effects": [
     {
+      "type": "execute_command",
+      "command": "/title @s actionbar {\"translate\":\"spider_cider.climb\"}"
+    },
+    {
       "type": "attributes",
       "time": "quality * 30",
       "entries": [
@@ -47,7 +51,7 @@
           "id": "spider_climb",
           "amount": 2.4,
           "operation": "add_value",
-          "type": "step_height"
+          "type": "generic.step_height"
         }
       ]
     },
@@ -62,11 +66,21 @@
       "effect": "minecraft:speed",
       "time": "quality * 30",
       "value": "quality/5-0.01"
+    },
+    {
+      "type": "delayed",
+      "delay": "quality*30",
+      "entries": [
+        {
+          "type": "execute_command",
+          "command": "/title @s actionbar {\"translate\":\"spider_cider.end\"}"
+        }
+      ]
     }
   ],
   "name": {
     "translate": "drinktype.brewery.spider_cider"
   },
   "color": "#be70a0",
-  "visual":{"resource_pack_model": "cabbage_substances:drink"}
+  "visual":{"resource_pack_model": "cabbage_substances:wine_glass"}
 }

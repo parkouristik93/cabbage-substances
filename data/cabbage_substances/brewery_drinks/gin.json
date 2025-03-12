@@ -43,5 +43,5 @@
       "translate": "drinktype.brewery.gin"
     },
     "color": "#99ddff",
-    "visual":{"resource_pack_model": "cabbage_substances:drink"}
+    "visual":{"resource_pack_model": "cabbage_substances:shot"}
   }

@@ -36,5 +36,5 @@
     "translate": "drinktype.brewery.apple_kompot"
   },
   "color": "#ffe8a3",
-  "visual":{"resource_pack_model": "cabbage_substances:drink"}
+  "visual":{"resource_pack_model": "cabbage_substances:jar"}
 }

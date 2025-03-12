@@ -25,7 +25,8 @@
   "color": "#8a00e0",
   "visual": {
     "components":{
-      "enchantment_glint_override":true
+      "enchantment_glint_override":true,
+      "minecraft:rarity": "uncommon"
     }
 }
 }

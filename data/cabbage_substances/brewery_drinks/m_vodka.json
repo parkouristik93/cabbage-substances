@@ -81,5 +81,5 @@
       "translate": "drinktype.brewery.mushroom_vodka"
     },
     "color": "#ffd2b3",
-    "visual":{"resource_pack_model": "cabbage_substances:drink"}
+    "visual":{"resource_pack_model": "cabbage_substances:shot"}
   }

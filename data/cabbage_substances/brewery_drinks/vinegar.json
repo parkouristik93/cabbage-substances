@@ -41,7 +41,7 @@
           "id": "vinegar",
           "amount": -10,
           "operation": "add_value",
-          "type": "max_health"
+          "type": "generic.max_health"
         }
       ]
     }

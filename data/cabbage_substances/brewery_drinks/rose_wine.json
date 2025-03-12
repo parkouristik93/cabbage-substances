@@ -32,7 +32,7 @@
   "base_quality_value": "smooth_value_days(30.0, 30.0, 240.0, age) * 10",
   "drinking_time": "clamp(1.6 * (7 / (max(quality, 0.1))), 1.6, 4.8)",
   "alcoholic_value": "8 * (0.75 + quality / 40)",
-  "effects": [
+  "entries": [
     {
       "type": "potion",
       "locked": false,
@@ -45,5 +45,5 @@
     "translate": "drinktype.brewery.rose_wine"
   },
   "color": "#ff8a97",
-  "visual":{"resource_pack_model": "cabbage_substances:drink"}
+  "visual":{"resource_pack_model": "cabbage_substances:wine_glass"}
 }

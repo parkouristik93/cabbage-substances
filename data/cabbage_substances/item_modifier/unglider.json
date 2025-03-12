@@ -2,14 +2,22 @@
   {
     "function": "minecraft:set_enchantments",
     "enchantments": {
-      "minecraft:binding_curse": -1
+      "minecraft:binding_curse": -1,
+      "minecraft:vanishing_curse": -1
     },
     "add": true
   },
   {
-    "function": "minecraft:set_components",
-    "components": {
-      "!minecraft:glider": {}
-    }
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.gravity",
+        "id": "glider",
+        "amount": 0,
+        "operation": "add_multiplied_base",
+        "slot": "head"
+      }
+    ],
+    "replace": false
   }
 ]

@@ -58,7 +58,7 @@
               "id": "health_debuff",
               "amount": -5,
               "operation": "add_value",
-              "type": "max_health"
+              "type": "generic.max_health"
             }
           ]
         },

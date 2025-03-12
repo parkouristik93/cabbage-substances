@@ -42,5 +42,5 @@
     "translate": "drinktype.brewery.hot_cocoa"
   },
   "color": "#B33C00",
-  "visual":{"resource_pack_model": "cabbage_substances:drink"}
+  "visual":{"resource_pack_model": "cabbage_substances:cup"}
 }

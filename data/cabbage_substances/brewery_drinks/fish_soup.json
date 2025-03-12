@@ -46,6 +46,6 @@
       "animation":"eat",
        "particles": true,
        "model":"suspicious_stew",
-      "resource_pack_model": "cabbage_substances:drink"
+      "resource_pack_model": "cabbage_substances:fish_soup"
     }
   }
