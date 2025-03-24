@@ -49,6 +49,5 @@
   "name": {
     "translate": "drinktype.brewery.vinegar"
   },
-  "color": "#ffffff",
-  "visual":{"resource_pack_model": "cabbage_substances:drink"}
+  "color": "#ffffff"
 }
