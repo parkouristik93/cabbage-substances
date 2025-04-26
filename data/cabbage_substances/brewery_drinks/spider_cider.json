@@ -51,7 +51,7 @@
           "id": "spider_climb",
           "amount": 2.4,
           "operation": "add_value",
-          "type": "step_height"
+          "type": "generic.step_height"
         }
       ]
     },
@@ -66,6 +66,16 @@
       "effect": "minecraft:speed",
       "time": "quality * 30",
       "value": "quality/5-0.01"
+    },
+    {
+      "type": "delayed",
+      "delay": "quality*30",
+      "entries": [
+        {
+          "type": "execute_command",
+          "command": "/title @s actionbar {\"translate\":\"spider_cider.end\"}"
+        }
+      ]
     }
   ],
   "name": {

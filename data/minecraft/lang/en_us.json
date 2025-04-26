@@ -48,6 +48,9 @@
     "drinktype.brewery.chocolate_w_u":"Melted white chocolate",
 
     "drinktype.brewery.recall":"Recall Potion",
+    "recall.origin":"You had no spawnpoint, welcome to ",
+    "recall.home":"Welcome home, ",
+    
     "drinktype.brewery.fire_whiskey":"Fireball Whiskey",
     "drinktype.brewery.sake":"Sake",
     "drinktype.brewery.tom_yum":"Tom yum",
@@ -63,7 +66,8 @@
     "drinktype.brewery.nuggets1":"Chicken nuggets 1/3",
     "drinktype.brewery.nuggets2":"Chicken nuggets 2/3",
 
-
+    "spider_cider.climb":"With great power comes great responsibility...",
+    "spider_cider.end":"You feel the ground beneath you again as your wall-climbing abilities fade",
     "redbull.elytra.name":"Houston, we have a problem",
     "redbull.elytra.lore":"If you read this, you are probably falling",
     "redbull.launch":"Red Bull gives you wiiings",

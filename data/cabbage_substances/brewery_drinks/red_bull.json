@@ -44,6 +44,7 @@
         "type": "quality_select",
         "entries": 
         [
+          
           {
             "for":6,
             "result":
@@ -65,7 +66,7 @@
               },
               {
                 "type": "execute_command",
-                "command": "/execute if entity @s[nbt=!{Inventory:[{Slot:103b}]}] run item replace entity @s armor.head with minecraft:feather[minecraft:equippable={\"slot\": \"head\"},item_name='{\"translate\":\"redbull.elytra.name\"}',lore=['{\"translate\":\"redbull.elytra.lore\"}'],enchantments={levels:{\"minecraft:vanishing_curse\":1}}]"
+                "command": "/execute unless items entity @p armor.head * run item replace entity @s armor.head with minecraft:feather[minecraft:equippable={\"slot\": \"head\"},item_name={\"translate\":\"redbull.elytra.name\"},lore=[{\"translate\":\"redbull.elytra.lore\"}],enchantments={\"minecraft:vanishing_curse\":1}]"
               },
               {
                 "type": "execute_command",
@@ -81,7 +82,7 @@
                   },
                   {
                     "type": "execute_command",
-                    "command": "/execute if entity @s[nbt={Inventory:[{id:\"minecraft:feather\",Slot:103b,components:{\"minecraft:glider\":{}}}]}] run item replace entity @s armor.head with air"
+                    "command": "/execute if items entity @p armor.head minecraft:feather[minecraft:glider={}] run item replace entity @s armor.head with air"
                   },
                   {
                     "type": "execute_command",
@@ -106,3 +107,4 @@
     "color": "#FFFF00",
     "visual":{"resource_pack_model": "cabbage_substances:drink"}
   }
+  
