@@ -40,6 +40,10 @@
   "alcoholic_value": "9 * (0.75 + quality / 40)",
   "effects": [
     {
+      "type": "execute_command",
+      "command": "/title @s actionbar {\"translate\":\"spider_cider.climb\"}"
+    },
+    {
       "type": "attributes",
       "time": "quality * 30",
       "entries": [
