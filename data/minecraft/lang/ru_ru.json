@@ -48,6 +48,9 @@
     "drinktype.brewery.chocolate_w":"Белый шоколад",
 
     "drinktype.brewery.recall":"Зелье возврата",
+    "recall.origin":"У тебя нету хаты, добро пожаловать на ",
+    "recall.home":"Вечер в хату, ",
+    
     "drinktype.brewery.carrot_cake":"Морковный торт",
     "drinktype.brewery.fire_whiskey":"Виски \"Огеннный шар\"",
     "drinktype.brewery.sake":"Саке",
@@ -64,6 +67,8 @@
     "drinktype.brewery.nuggets1":"Наггетсы 1/3",
     "drinktype.brewery.nuggets2":"Наггетсы 2/3",
 
+    "spider_cider.climb":"С великой силой приходит великая ответственность...",
+    "spider_cider.end":"Вы снова чувствуете землю под ногами, когда ваши способности лазать по стенам угасают",
     "redbull.elytra.name":"Хьюстон, у нас проблема",
     "redbull.elytra.lore":"Не трать свои 5 секунд зря",
     "redbull.launch":"Рэд Булл окрыляяяет",
